@@ -15,20 +15,23 @@ function HomePage(){
         return (
          <Box>
             {isDesktop ?
-           <Box gap="20"  display="flex">
-            <Box border="3px solid red" ml='20px' width="280px">
-                
-              
+           <Box gap='20' display='flex'>
+            <Box border="3px solid red" ml='20px' height='100%' width="250px" position='fixed'  >
+
                 <SideBar/>
                 
             </Box>  
-           <Box border="3px solid red"  width="70%">
+           
+           <Box border="3px solid red" ml='300px'  width="90vw"   >
+           
             <Heading  color="gold">Home</Heading>
+            
            </Box>
-           <Box border="3px solid red" mr='20px' width="100px">
-           <Heading  color="gold">Navbar Menu</Heading>
+          
+           <Box  border="3px solid red"  height="100%"  width="5vw" >
+           <Heading  color="gold">Navb</Heading>
            </Box>
-           </Box> 
+           </Box>
           
             :
             

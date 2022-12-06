@@ -5,8 +5,10 @@ import Navbar from './components/SideBar';
 import HomePage from './components/HomePage';
 function App() {
   return (
-    <Box border="4px solid green" backgroundColor="rgb(1,22,39)"  className='App'> 
+    <Box minHeight="100vh"  border="4px solid green" backgroundColor="#07052F" padding="10px"  className='App'> 
+      <Box margin="auto" >
            <HomePage  />
+        </Box>
     </Box>
 
   )
