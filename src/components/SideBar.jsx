@@ -1,11 +1,11 @@
 
 import {Button,Text,Box,Image,Link, Heading, Stack,CircularProgress,CircularProgressLabel,Spacer} from "@chakra-ui/react"
-import {CheckIcon} from "@chakra-ui/icons"
+import {CheckIcon,DownloadIcon} from "@chakra-ui/icons"
 
 function SideBar(){
 return (
    <Box minHeight="100vh" >
-   <Box backgroundColor="#09053B" padding="20px" >
+   <Box position='sticky' backgroundColor="#09053B" padding="20px" >
       <Box>
       <Image src="https://avatars.githubusercontent.com/u/107980469?v=4" w="60%" borderRadius="50%" />
       </Box>
@@ -14,7 +14,7 @@ return (
    </Box>
    <Box padding="20px"  >
       
-      <Box position='sticky'  justifyContent='space-between' display='flex'>
+      <Box   justifyContent='space-between' display='flex'>
        <Box display='grid'>
            <Heading textAlign="left" color="white"   mb='3px' as='h5'>State :</Heading>
            <Heading textAlign="left" color="white" mb='3px' mt="1" as='h5'>City :</Heading>
@@ -60,13 +60,12 @@ return (
                     <CheckIcon color="gold" /> <Text color="grey" mb='10px' as='sub'>REDUX</Text>
                     <Spacer/>
                     <CheckIcon color="gold" /> <Text color="grey" mb='10px' as='sub'>TYPESCRIPT</Text>
-                    <Spacer/>
-                    <CheckIcon color="gold" /> <Text color="grey" mb='10px' as='sub'>CHAKRA UI</Text>
+                   
          </Box>
 
-         <Button  border='0' backgroundColor='#07052F' borderRadius='0%' padding='10px'  color='gold'>Download Resume</Button>
+         <Button  border='0' backgroundColor='#07052F' borderRadius='0%' padding='10px'  color='gold'>Download Resume  </Button><DownloadIcon color='gold' />
    </Box>
-     <Box border="2px solid red" height="auto" width='250px'  >
+     <Box border="2px solid red" height="auto" width='250px'   >
       
       
       
@@ -76,4 +75,4 @@ return (
 
 }
 
-export default SideBar
+export default SideBar         

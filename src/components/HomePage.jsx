@@ -2,12 +2,13 @@ import {Box,Flex,Heading,Text, useMediaQuery,Grid,GridItem} from "@chakra-ui/rea
 import { useState } from "react"
 import SideBar from "./SideBar"
 import {DragHandleIcon,HamburgerIcon} from '@chakra-ui/icons'
+import Profile from "./Profile"
 function HomePage(){
     
         const [isDesktop] = useMediaQuery('(min-width: 920px)')
-        const [open,setOpen]=useState(false)
+        const [open,setOpen]=useState(true)
        const handleSidebar=()=>{
-       
+            setOpen(!open)
        }
 
        
@@ -24,37 +25,52 @@ function HomePage(){
            
            <Box border="3px solid red" ml='300px'  width="90vw"   >
            
-            <Heading  color="gold">Home</Heading>
             
+            <Profile/>
            </Box>
           
-           <Box  border="3px solid red"  height="100%"  width="5vw" >
-           <Heading  color="gold">Navb</Heading>
+           <Box  border="3px solid red"   height="100%"  width="5vw" >
+           <Heading  color="gold"></Heading>
            </Box>
            </Box>
           
-            :
+            
+          
+          
+          :
+
+
+
+
+
             
             <Box gap="20"  display="flex">
-               {/* {
-                    open ? <Box border="3px solid red" ml='20px' >
-                    <Heading onClick={handleSidebar} color="gold">l</Heading>
-                    </Box>
-               :
-               <Box border="3px solid red" ml='20px' width="280px">
-                <Heading onClick={handleSidebar}  color="gold">larger than 1280px</Heading>
-            </Box> 
-                } */}
+              
                 
-                <Box border="3px solid red" ml='20px' >
-                    <Heading onClick={handleSidebar} color="gold"><DragHandleIcon/></Heading>
+             {
+                open ? 
+
+                <Box  ml='20px' >
+                    <Text onClick={handleSidebar} color="grey"><DragHandleIcon/></Text>
                     </Box>  
+                  :
+                  <Box onClick={handleSidebar} border="3px solid red" ml='20px' width="250px">
+                  <SideBar/>
+                  
+              </Box> 
+             }   
             
            <Box border="3px solid red"  width="90%">
-            <Heading  color="gold">Home</Heading>
+            <Heading  color="gold">
+
+
+
+            </Heading>
            </Box>
-           <Box border="3px solid red" mr='20px' >
-           <Heading  color="gold"><HamburgerIcon /></Heading>
+           
+           
+           <Box  mr='20px' >
+           <Text color="grey"><HamburgerIcon /></Text>
            </Box>
            </Box> 
            
