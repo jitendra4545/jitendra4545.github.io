@@ -66,8 +66,7 @@ return (
 
          <Button  border='0' backgroundColor='#07052F' borderRadius='0%' padding='10px'  color='gold'>Download Resume</Button>
    </Box>
-   <Box border="2px solid red" height="auto" width='250px'  >
-      
+     <Box border="2px solid red" height="auto" width='250px'  >
       
       
       
