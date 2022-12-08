@@ -1,20 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import {Box,Text,Link,Image,Grid} from '@chakra-ui/react'
-import Navbar from './components/SideBar';
-import HomePage from './components/HomePage';
+import {Box,Text,Link,Image,Grid, Heading} from '@chakra-ui/react'
+import Navbar from './AllRouter/Navbar';
+import MainRoutes from './AllRouter/MainRoutes';
+import HomePage from './components/Home';
+
+
 function App() {
-  const breakpoints = {
-    sm: '30em',
-    md: '48em',
-    lg: '62em',
-    xl: '80em',
-    '2xl': '96em',
-  }
-  
+   
+
   return (
-    <Box className='App'> 
-                 
+    <Box   bg='rgb(19, 39, 95)'  className='App'> 
+   
+   
+   <Box width='70%' margin='auto'>
+    
+    <Box>
+         <Navbar/>
+         <MainRoutes/>
+       
+     </Box>  
+     </Box>
     </Box>
 
   )
