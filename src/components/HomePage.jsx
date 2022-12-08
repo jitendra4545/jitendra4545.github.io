@@ -3,6 +3,7 @@ import { useState } from "react"
 import SideBar from "./SideBar"
 import {DragHandleIcon,HamburgerIcon} from '@chakra-ui/icons'
 import Profile from "./Profile"
+
 function HomePage(){
     
         const [isDesktop] = useMediaQuery('(min-width: 920px)')
@@ -63,8 +64,7 @@ function HomePage(){
            <Box border="3px solid red"  width="90%">
             <Heading  color="gold">
 
-
-
+            
             </Heading>
            </Box>
            

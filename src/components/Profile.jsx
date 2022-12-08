@@ -2,7 +2,7 @@ import {Box} from '@chakra-ui/react'
 
 function Profile(){
     return (
-        <Box >
+        <Box border='2px solid green' width="100%" >
              <Box>
 
              </Box>

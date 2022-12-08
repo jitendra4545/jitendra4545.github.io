@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import {Box,Text,Link,Image} from '@chakra-ui/react'
+import {Box,Text,Link,Image,Grid} from '@chakra-ui/react'
 import Navbar from './components/SideBar';
 import HomePage from './components/HomePage';
 function App() {
+  const breakpoints = {
+    sm: '30em',
+    md: '48em',
+    lg: '62em',
+    xl: '80em',
+    '2xl': '96em',
+  }
+  
   return (
-    <Box minHeight="100vh"  border="4px solid green" backgroundColor="#07052F" padding="10px"  className='App'> 
-      <Box margin="auto" >
-           <HomePage  />
-        </Box>
+    <Box className='App'> 
+                 
     </Box>
 
   )
