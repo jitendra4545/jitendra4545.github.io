@@ -2,6 +2,7 @@ import {Box,Heading,Text, useMediaQuery,SimpleGrid,Image, Button} from '@chakra-
 import AboutMe from './About'
 import {Link} from 'react-router-dom'
 import Skill from './Skills'
+import Project from './Projects'
 
 function HomePage(){
    
@@ -36,6 +37,7 @@ function HomePage(){
           
           <AboutMe/>
           <Skill/>
+          <Project/>
           </>
         )
     
