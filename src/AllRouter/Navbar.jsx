@@ -14,12 +14,12 @@ import {
 import {HamburgerIcon} from '@chakra-ui/icons'
 import MainRoutes from './MainRoutes'
 function Navbar(){
-    const [isSmall]=useMediaQuery('(min-width: 580px)')
+    const [isSmall]=useMediaQuery('(min-width: 780px)')
     const { isOpen, onOpen, onClose } = useDisclosure()
   const btnRef = React.useRef()
     return(
       
-        <Box position='sticky' top='0px' padding='10px' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+        <Box bg='rgb(19, 39, 95)' position='sticky' top='0px' padding='10px' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
             <Box >
                <Heading fontStyle='italic' color='white'>Jitendra</Heading>  
             </Box>
@@ -40,8 +40,8 @@ function Navbar(){
 
                  :  
 
-                 <Box >
-                 <Button ref={btnRef} colorScheme='gold' backgroundColor='gold' onClick={onOpen}>
+                 <Box  >
+                 <Button ref={btnRef} colorScheme='gold' backgroundColor='#F60A68' onClick={onOpen}>
                 < HamburgerIcon />
                  </Button>
                  <Drawer
@@ -56,16 +56,16 @@ function Navbar(){
                      <DrawerCloseButton />
                      
            
-                     <DrawerBody  bg='blue'>
+                     <DrawerBody  bg='#F60A68'>
                       <Grid  gap='20'>
                        <Box>
                             <Link><Heading>Home</Heading></Link>
                         </Box>
-                           <Box>
-                            <Link>Home</Link>
+                           <Box onClick={onClose}>
+                            <Link to='/'>Home</Link>
                         </Box>
-                          <Box>
-                            <Link>Home</Link>
+                          <Box onClick={onClose}>
+                            <Link to='/about'>Home</Link>
                         </Box>
                           <Box>
                             <Link>Home</Link>

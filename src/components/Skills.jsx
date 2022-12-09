@@ -1,7 +1,4 @@
-import {Box, Heading, SimpleGrid,Image,Text} from '@chakra-ui/react'
-
-
-function Skill(){
+import {Box, Heading, SimpleGrid,Image,Text,CircularProgress,CircularProgressLabel} from '@chakra-ui/react'
 const data=[{
     imgURL:'https://manojattri.vercel.app/static/media/html.2ba4fabc69a89a8f71e6.png',
     name:'HTML'
@@ -44,25 +41,60 @@ const data=[{
 
 ]
 
+
+function Skill(){
+
+    
+
     return (
         <Box mt='10%' >
         <Heading mb='5%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>Skills</Heading>
         <Heading as='h2' size='xl' color='#F60A68'>Frontend</Heading>
-        <SimpleGrid mt='5%' gap="10" columns={{base:'2',md:'3',lg:'3'}}>
+        <SimpleGrid  mt='5%' gap="6" columns={{base:'2',md:'3',lg:'3'}}>
             
          
           
             {
                 data.map((el)=>(
-                  <Box justifyContent='center' w='20rem' border='1px solid red' >
-                    <Image w='60%' src={el.imgURL} alt={el.name} />
-                    <Text>{el.name}</Text>
+                  <Box  m='auto' boxShadow=' #F60A68 5px 5px 5px 5px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' justifyContent='center' w={{base:'11rem',md:"14rem",lg:'15rem'}} p={{base:'10px 30px',md:'20px 70px'}} h={{base:'10rem' , md:'12rem',lg:''}} gap='4' >
+                    <Image  src={el.imgURL} alt={el.name} />
+                    <Text color='white'>{el.name}</Text>
                   </Box> 
                 ))
             }
         
            
        </SimpleGrid>
+           <SimpleGrid mt='7%' columns={{base:'2',md:'4',lg:'4'}} >
+            <Box >
+           <CircularProgress size='130px' value={75} color='orange.300'>
+                    <CircularProgressLabel color='orange.500'>75%</CircularProgressLabel>
+            </CircularProgress>
+            <Heading as='h4' size='md' color='white'>HTML</Heading>
+            </Box>
+            <Box>
+           <CircularProgress size='130px' value={70} color='skyblue'>
+                    <CircularProgressLabel color='skyblue' >70%</CircularProgressLabel>
+            </CircularProgress>
+            <Heading as='h4' size='md' color='white'>CSS</Heading>
+            </Box>
+            <Box>
+           <CircularProgress size='130px' value={80} color='yellow'>
+                    <CircularProgressLabel color='yellow'>80%</CircularProgressLabel>
+            </CircularProgress>
+            <Heading as='h4' size='md' color='white'>JavaScript</Heading>
+            </Box>
+            <Box>
+           <CircularProgress size='130px' value={80} color='violet'>
+                    <CircularProgressLabel color='violet'>80%</CircularProgressLabel>
+            </CircularProgress>
+            <Heading as='h4' size='md' color='white'>React</Heading>
+            </Box>
+
+           </SimpleGrid>
+
+           <Heading as='h2' mt='7%' size='xl' color='#F60A68'>GitHub Calender</Heading>
+
        </Box>
     )
 }

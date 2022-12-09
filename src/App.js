@@ -13,7 +13,7 @@ function App() {
     <Box   bg='rgb(19, 39, 95)'  className='App'> 
    
    
-   <Box width='70%' margin='auto'>
+   <Box width={{base:'90%',md:'92%',lg:'70%'}} margin='auto'>
     
     <Box>
          <Navbar/>
