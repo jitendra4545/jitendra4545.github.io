@@ -8,7 +8,7 @@ import HomePage from './components/Home';
 
 function App() {
    
-
+  //_hover={{color:"rgb(19, 39, 95)"}}
   return (
     <Box   bg='rgb(19, 39, 95)'  className='App'> 
    
@@ -16,7 +16,7 @@ function App() {
    <Box width={{base:'90%',md:'92%',lg:'70%'}} margin='auto'>
     
     <Box>
-         <Navbar/>
+    <Navbar/>
          <MainRoutes/>
        
      </Box>  

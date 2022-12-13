@@ -19,7 +19,8 @@ function Navbar(){
   const btnRef = React.useRef()
     return(
       
-        <Box bg='rgb(19, 39, 95)' position='sticky' top='0px' padding='10px' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+        <Box  bg='rgb(19, 39, 95)' zIndex='1000' position='sticky' top='0px' padding='10px 20px ' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+           
             <Box >
                <Heading fontStyle='italic' color='white'>Jitendra</Heading>  
             </Box>
@@ -57,18 +58,24 @@ function Navbar(){
                      
            
                      <DrawerBody  bg='#F60A68'>
-                      <Grid  gap='20'>
-                       <Box>
+                      <Grid mt='19%' gap='10'>
+                       {/* <Box>
                             <Link><Heading>Home</Heading></Link>
-                        </Box>
+                        </Box> */}
                            <Box onClick={onClose}>
-                            <Link to='/'>Home</Link>
+                           <Heading _hover={{color:"rgb(19, 39, 95)"}} color='white' textAlign='left' as='h3' size='lg'><Link to='/'><h2></h2>Home</Link></Heading> 
                         </Box>
                           <Box onClick={onClose}>
-                            <Link to='/about'>Home</Link>
+                          <Heading _hover={{color:"rgb(19, 39, 95)"}} color='white' textAlign='left' as='h3' size='lg'><Link to='/about'>About</Link></Heading> 
                         </Box>
-                          <Box>
-                            <Link>Home</Link>
+                          <Box onClick={onClose}>
+                          <Heading _hover={{color:"rgb(19, 39, 95)"}} color='white' textAlign='left' as='h3' size='lg'> <Link to='/project'>Project</Link></Heading> 
+                        </Box>
+                        <Box onClick={onClose}>
+                        <Heading _hover={{color:"rgb(19, 39, 95)"}} color='white' textAlign='left' as='h3' size='lg'> <Link to='skill'>Skills</Link></Heading> 
+                        </Box>
+                        <Box onClick={onClose}>
+                        <Heading _hover={{color:"rgb(19, 39, 95)"}} color='white' textAlign='left' as='h3' size='lg'><Link to='/contact'>Contact</Link></Heading> 
                         </Box>
                             </Grid>
                      </DrawerBody>

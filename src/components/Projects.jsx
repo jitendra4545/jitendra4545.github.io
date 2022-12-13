@@ -1,5 +1,6 @@
-import {Box, Heading, Grid,Text,Image, Button} from '@chakra-ui/react'
-import {Link, useNavigate} from 'react-router-dom'
+import {Box, Heading, Grid,Text,Image, Button,Link} from '@chakra-ui/react'
+import { useNavigate} from 'react-router-dom'
+
 
 function Project(){
    
@@ -7,7 +8,7 @@ function Project(){
         <Box mt='10%'>
            
            <Heading mb='5%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>PROJECTS</Heading>
-           <Grid  p='25px' boxShadow='   #F60A68 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
+           <Grid  p='25px' boxShadow='   skyblue 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
                              <Box>
                                     <Heading textAlign='left' as='h4' size='lg' color='#F60A68'>Urban Company Clone</Heading>
                                           <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{base:'2xl',md:'2xl',lg:'2xl'}} color='grey' >
@@ -21,10 +22,10 @@ function Project(){
                                      </Box> 
                                     <Box  gap='2' display='flex' m='auto' >
                                         <Box> 
-                                           <Link href='https://fancy-queijadas-c9c9f4.netlify.app' > <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Link>
+                                        <Link href='https://github.com/hustler-abhi/busy-motion-6100' ><Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Link>
                                             </Box>
                                         <Box> 
-                                            <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button>
+                                        <Link href={'https://lambent-paprenjak-947e76.netlify.app/'}> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button></Link>
                                             </Box>
                                         
                                         
@@ -37,7 +38,7 @@ function Project(){
                     </Grid>
                    
                    
-                    <Grid mt='2%'  p='25px' boxShadow='   #F60A68 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
+                    <Grid mt='2%'  p='25px' boxShadow='   skyblue 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
                              <Box>
                                     <Heading  textAlign='left' as='h4' size='lg' color='#F60A68'>Myntra Clone</Heading>
                                           <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{base:'2xl',md:'2xl',lg:'2xl'}} color='grey' >
@@ -51,8 +52,8 @@ function Project(){
                                             <Image src='https://manojattri.vercel.app/static/media/chakra.e4cb472ccaabf22affba.png' />
                                      </Box> 
                                     <Box  gap='2' display='flex' m='auto' >
-                                        <Box> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Box>
-                                        <Box> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button></Box>
+                                        <Box> <Link href='https://github.com/jitendra4545/racial-squirrel-7776'><Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Link></Box>
+                                        <Box> <Link href='https://jovial-bavarois-3affc5.netlify.app'> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button></Link></Box>
                                         
                                         
                                     </Box>
@@ -62,7 +63,7 @@ function Project(){
                                     <Image  src='https://i.postimg.cc/cHgFNJMy/1.png' />
                              </Box>
                     </Grid>
-                    <Grid mt='2%' p='25px' boxShadow='  #F60A68 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
+                    <Grid mt='2%' p='25px' boxShadow=' skyblue 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
                              <Box>
                                     <Heading  textAlign='left' as='h4' size='lg' color='#F60A68'>Fathom Health Clone</Heading>
                                           <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{base:'2xl',md:'2xl',lg:'2xl'}} color='grey' >
@@ -76,9 +77,8 @@ function Project(){
                                            
                                      </Box> 
                                     <Box  gap='2' display='flex' m='auto' >
-                                        <Box> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Box>
-                                        <Box> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button></Box>
-                                        
+                                    <Box> <Link href='https://github.com/jitendra4545/-tedious-advertisement-2369'><Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Link></Box>
+                                        <Box> <Link href='https://fancy-queijadas-c9c9f4.netlify.app/'> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button></Link></Box>
                                         
                                     </Box>
                                     
@@ -87,7 +87,7 @@ function Project(){
                                     <Image  src='https://i.postimg.cc/kgS89tLy/11.png' />
                              </Box>
                     </Grid>
-                    <Grid mt='2%' p='25px' boxShadow='  #F60A68 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
+                    <Grid mt='2%' p='25px' boxShadow='skyblue 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
                              <Box>
                                     <Heading  textAlign='left' as='h4' size='lg' color='#F60A68'>Cricket.com Clone</Heading>
                                           <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{base:'2xl',md:'2xl',lg:'2xl'}} color='grey' >
@@ -101,8 +101,8 @@ function Project(){
                                             
                                      </Box> 
                                     <Box  gap='2' display='flex' m='auto' >
-                                        <Box> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Box>
-                                        <Box> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button></Box>
+                                    <Box> <Link href='https://github.com/Khajamoinoddin/selective-spark-9795'><Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>CODE</Button></Link></Box>
+                                        <Box> <Link href='https://sensational-taffy-8d0af9.netlify.app/'> <Button _hover={{bg:'blue'}} color='white' backgroundColor='#F60A68'>LIVE</Button></Link></Box>
                                         
                                         
                                     </Box>

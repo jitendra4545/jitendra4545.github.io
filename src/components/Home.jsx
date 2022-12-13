@@ -1,6 +1,5 @@
-import {Box,Heading,Text, useMediaQuery,SimpleGrid,Image, Button} from '@chakra-ui/react'
+import {Box,Heading,Text, useMediaQuery,SimpleGrid,Image, Button,Link} from '@chakra-ui/react'
 import AboutMe from './About'
-import {Link} from 'react-router-dom'
 import Skill from './Skills'
 import Project from './Projects'
 import ContactMe from './Contact'
@@ -19,10 +18,10 @@ function HomePage(){
                    <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer who loves building projects.I am equipped with a variety of technologies and tools to help me build the best possible product.</Text>
                    <Box mt='7%' justifyContent='space-evenly' display='flex'>
                     <Box>
-                 <Image w='50px' src='https://cdn-icons-png.flaticon.com/512/174/174857.png' />
+                <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <Image w='50px' src='https://cdn-icons-png.flaticon.com/512/174/174857.png' /></Link>
                     </Box>
                     <Box>
-                        <Image w='55px' src='https://cdn3d.iconscout.com/3d/free/thumb/github-6343397-5221066.png' />
+                      <Link href='https://github.com/jitendra4545'>  <Image w='55px' src='https://cdn3d.iconscout.com/3d/free/thumb/github-6343397-5221066.png' /></Link>
                     </Box>
                     <Box   >
                         <Button _hover={{bg:'blue'}} color='white' mt='10px' backgroundColor='#F60A68'><Link to='./All'></Link>See My Resume</Button>
