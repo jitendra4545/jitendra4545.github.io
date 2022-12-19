@@ -16,9 +16,8 @@ function App() {
    <Box width={{base:'90%',md:'92%',lg:'70%'}} margin='auto'>
     
     <Box>
-    <Navbar/>
+         <Navbar/>
          <MainRoutes/>
-       
      </Box>  
      </Box>
     </Box>

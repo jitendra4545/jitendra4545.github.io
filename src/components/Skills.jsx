@@ -56,7 +56,7 @@ function Skill(){
           
             {
                 data.map((el)=>(
-                  <Box  m='auto' boxShadow=' #F60A68 5px 5px 5px 5px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' justifyContent='center' w={{base:'11rem',md:"14rem",lg:'15rem'}} p={{base:'10px 30px',md:'20px 70px'}} h={{base:'10rem' , md:'12rem',lg:''}} gap='4' >
+                  <Box  m='auto' boxShadow=' #F60A68 5px 5px 5px 5px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' justifyContent='center' w={{base:'11rem',md:"14rem",lg:'15rem'}} p={{base:'10px 20px',md:'20px 70px'}} h={{base:'10rem' , md:'12rem',lg:''}} gap='4' >
                     <Image  src={el.imgURL} alt={el.name} />
                     <Text color='white'>{el.name}</Text>
                   </Box> 
@@ -94,6 +94,9 @@ function Skill(){
            </SimpleGrid>
 
            <Heading as='h2' mt='7%' size='xl' color='#F60A68'>GitHub Calender</Heading>
+
+         <Box>
+         </Box>
 
        </Box>
     )
