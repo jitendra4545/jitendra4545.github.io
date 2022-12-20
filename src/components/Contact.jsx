@@ -8,9 +8,9 @@ function ContactMe(){
     return (
        
         <Box mt='7%' >
-           <Heading mb='2%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>About</Heading>
-               <Text textAlign='left' color='white' >Submit the form below to get in touch with me</Text> 
-            <Grid justifyContent={'space-between'} gap='10' p='20px' w='80%' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
+           <Heading mb='2%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>Contact</Heading>
+               <Text mt='4%' mb='3%' textAlign='left' color='white' >Submit the form below to get in touch with me</Text> 
+            <Grid  justifyContent={'space-between'} gap='20' p='20px' w='80%' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
                 <Box >
                        <Box>
                                <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' border='1px solid green' padding='15px' display={'flex'}>
@@ -69,7 +69,7 @@ function ContactMe(){
                                
                       </Stack>
                       
-                    <Button mt='25px' bg='#F60A68' color='white' >Let's Connect</Button>
+                    <Button borderRadius='30px'  mt='55px' bg='#F60A68' color='white' _hover={{bg:'blue'}} >Let's Connect</Button>
                 
                 </Box>
             </Grid>
