@@ -4,7 +4,7 @@ import Skill from './Skills'
 import Project from './Projects'
 import ContactMe from './Contact'
 
-
+import Resume from '../Resume/Jitendra-Ghadei-Resume.pdf.pdf'
 function HomePage(){
    
         const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
@@ -25,7 +25,7 @@ function HomePage(){
                       <Link href='https://github.com/jitendra4545'>  <Image w='55px' src='https://cdn3d.iconscout.com/3d/free/thumb/github-6343397-5221066.png' /></Link>
                     </Box>
                     <Box   >
-                        <Button _hover={{bg:'blue'}} color='white' mt='10px' backgroundColor='#F60A68'><Link   >See My Resume</Link></Button>
+                        <Button _hover={{bg:'blue'}} color='white' mt='10px' backgroundColor='#F60A68'><Link href={Resume} download  >CV</Link></Button>
                     </Box>
                    </Box>
                  </Box>

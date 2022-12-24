@@ -1,4 +1,6 @@
 import {Box, Heading, SimpleGrid,Image,Text,CircularProgress,CircularProgressLabel} from '@chakra-ui/react'
+import GitHubCalender from './GithubCalender'
+import GitHubStats from './GitHubStats'
 const data=[{
     imgURL:'https://manojattri.vercel.app/static/media/html.2ba4fabc69a89a8f71e6.png',
     name:'HTML'
@@ -96,8 +98,11 @@ function Skill(){
            <Heading as='h2' mt='7%' size='xl' color='#F60A68'>GitHub Calender</Heading>
 
          <Box>
+            <GitHubCalender/>
          </Box>
-
+            <Box>
+                <GitHubStats/>
+            </Box>
        </Box>
     )
 }
