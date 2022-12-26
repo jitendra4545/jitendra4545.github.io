@@ -6,6 +6,7 @@ const GitHubStats = () => {
     // streak 
     <div>
       <div 
+      style={{marginTop:'50px'}}
        height={{
       base: '40%', // 0-48em
       md: '50%', // 48em-80em,
@@ -47,7 +48,8 @@ const GitHubStats = () => {
         </a>
         <a href="https://github.com/jitendra4545">
           <img
-            align="left"
+          style={{marginTop:'50px'}}
+            align="center"
             src="https://github-readme-stats.vercel.app/api?username=jitendra4545&count_private=true&show_icons=true" 
             alt="jitendra4545"//stats
           />

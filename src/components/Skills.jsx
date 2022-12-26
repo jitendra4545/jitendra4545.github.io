@@ -99,10 +99,11 @@ function Skill(){
 
          <Box>
             <GitHubCalender/>
+            
          </Box>
-            <Box>
+            {/* <Box>
                 <GitHubStats/>
-            </Box>
+            </Box> */}
        </Box>
     )
 }

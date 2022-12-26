@@ -5,6 +5,7 @@ import Project from './Projects'
 import ContactMe from './Contact'
 
 import Resume from '../Resume/Jitendra-Ghadei-Resume.pdf.pdf'
+import GitHubStats from './GitHubStats'
 function HomePage(){
    
         const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
@@ -38,6 +39,7 @@ function HomePage(){
           
           <AboutMe/>
           <Skill/>
+         <GitHubStats/>
           <Project/>
           <ContactMe />
           </>
