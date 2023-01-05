@@ -12,7 +12,7 @@ function HomePage(){
       
         return (
          <>
-          <SimpleGrid  bg='rgb(19, 39, 95)' mt='12%' columns={{base:'1',md:'2',lg:'2'}} spacing={20}>
+          <SimpleGrid  mt='12%' columns={{base:'1',md:'2',lg:'2'}}  spacing={20}>
                  <Box w={{base:'100%' ,md:'120%',lg:'140%'}}  textAlign='left'>
                    <Heading color='white' as='h2' size='2xl'>I'm</Heading>
                    <Heading color='#F60A68' as='h2' size='2xl'>Jitendra Kumar Ghadei</Heading>

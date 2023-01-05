@@ -13,7 +13,7 @@ function ContactMe(){
             <Grid  justifyContent={'space-between'} gap='20' p='20px' w='80%' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
                 <Box >
                        <Box>
-                               <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' border='1px solid green' padding='15px' display={'flex'}>
+                               <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;'  padding='15px' display={'flex'}>
                                   <FcPhone size='30px'/>
                         
                                 <Box ml='5px' textAlign={'left'}>
@@ -28,8 +28,8 @@ function ContactMe(){
                                 </Box>
                                     
                                </Box>
-                               <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;'mt='15px' border='1px solid green' padding='15px' display={'flex'}>
-                                  <SiGmail color='red' size='30px'/>
+                               <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;'mt='15px'  padding='15px' display={'flex'}>
+                                  <SiGmail color='yellow' size='30px'/>
                         
                                 <Box ml='5px' textAlign={'left'}>
                                     <Box color='white'>
@@ -43,8 +43,8 @@ function ContactMe(){
                                 </Box>
                                     
                                </Box>
-                               <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' mt='15px' border='1px solid green' padding='15px' display={'flex'}>
-                                  <ImLocation2 color='yellow' size='30px'/>
+                               <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' mt='15px' padding='15px' display={'flex'}>
+                                  <ImLocation2 color='red' size='30px'/>
                         
                                 <Box ml='5px' textAlign={'left'}>
                                     <Box color='white'>

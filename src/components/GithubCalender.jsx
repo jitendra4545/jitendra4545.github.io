@@ -8,7 +8,7 @@ import { Box, Text } from "@chakra-ui/react";
 //import Stats from "./Stats"
 function GitHubCalender() {
   return (
-    <Box mt='20px'bg='skyblue' color="black" h="360">
+    <Box mt='20px' color="yellow" h="360">
         <Box w="80%" transform="scale(1.05)" m="auto" textAlign="center" p="60px auto">
             <Row style={{ justifyContent: "center", padding: "20px auto", paddingTop: "60px"}}>
            
@@ -17,7 +17,7 @@ function GitHubCalender() {
                 username="jitendra4545"
                 blockSize={15}
                 blockMargin={5}
-                color="red"
+                color='#F60A68'
                 fontSize={15}
             />
             </Row>
