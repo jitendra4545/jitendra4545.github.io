@@ -58,7 +58,7 @@ function Skill(){
           
             {
                 data.map((el)=>(
-                  <Box   m='auto' boxShadow=' #F60A68 3px 2px 2px 2px, #F60A68 2px 3px 3px 3px;' justifyContent='center' w={{base:'11rem',md:"14rem",lg:'15rem'}} p={{base:'10px 20px',md:'20px 70px'}} h={{base:'10rem' , md:'12rem',lg:''}} gap='4' >
+                  <Box   m='auto' boxShadow=' #F60A68 3px 2px 2px 2px, #F60A68 2px 3px 3px 3px;' justifyContent='center' w={{base:'11rem',md:"14rem",lg:'15rem'}} p={{base:'10px 20px',md:'20px 70px'}} h={{base:'12rem' , md:'10rem',lg:''}} gap='4' >
                     <Image  src={el.imgURL} alt={el.name} />
                     <Text color='white'>{el.name}</Text>
                   </Box> 
