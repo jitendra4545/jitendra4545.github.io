@@ -20,13 +20,13 @@ function HomePage(){
                    <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer who loves building projects.I am equipped with a variety of technologies and tools to help me build the best possible product.</Text>
                    <Box mt='7%' gap='5%' alignItems={'right'} display='flex'>
                     <Box>
-                <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <Image w='50px' src='https://cdn-icons-png.flaticon.com/512/174/174857.png' /></Link>
+                <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <Image w='48px' src='https://cdn-icons-png.flaticon.com/512/174/174857.png' /></Link>
                     </Box>
                     <Box>
                       <Link href='https://github.com/jitendra4545'>  <Image w='55px' src='https://cdn3d.iconscout.com/3d/free/thumb/github-6343397-5221066.png' /></Link>
                     </Box>
                     <Box   >
-                        <Button _hover={{bg:'blue'}} color='white' mt='10px' backgroundColor='#F60A68'><Link href={Resume} download  >CV</Link></Button>
+                        <Button _hover={{bg:'blue'}} color='white' mt='10px' backgroundColor='#F60A68'><Link href={Resume} download  >RESUME</Link></Button>
                     </Box>
                    </Box>
                  </Box>

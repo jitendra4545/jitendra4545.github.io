@@ -41,7 +41,7 @@ const GitHubStats = () => {
       >
         <a href="https://github.com/jitendra4545">  
           <img
-            align="left"
+            align="right"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=jitendra4545" 
             alt="jitendra4545" //launguages
           />
