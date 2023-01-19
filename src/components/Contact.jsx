@@ -110,8 +110,9 @@ import {
   MdFacebook,
   MdOutlineEmail,
 } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
-
+import {ImLinkedin} from 'react-icons/im'
  function ContactMe(){
   return (
     <Container bg="bg='rgb(19, 39, 95)'" maxW="full" mt={5} centerContent overflow="hidden">
@@ -178,21 +179,23 @@ import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
                       _hover={{ bg: '#0D74FF' }}
                       icon={<MdFacebook size="28px" />}
                     />
-                    <IconButton
+                   
+                  <IconButton
                       aria-label="github"
                       variant="ghost"
                       size="lg"
                       isRound={true}
                       _hover={{ bg: '#0D74FF' }}
-                      icon={<BsGithub size="28px" />}
-                    />
+                        icon={<BsGithub size="28px" />}
+                    /> 
+                  
                     <IconButton
-                      aria-label="discord"
+                      aria-label="linkedin"
                       variant="ghost"
                       size="lg"
                       isRound={true}
                       _hover={{ bg: '#0D74FF' }}
-                      icon={<BsDiscord size="28px" />}
+                      icon={<ImLinkedin size="28px" />}
                     />
                   </HStack>
                 </Box>
