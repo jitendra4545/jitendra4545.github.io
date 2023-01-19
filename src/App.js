@@ -10,7 +10,7 @@ function App() {
    
   //_hover={{color:"rgb(19, 39, 95)"}}
   return (
-    <Box   bg='rgb(19, 39, 95)'  className='App'> 
+    <Box   bg="#02054B"  className='App'> 
    
    
    <Box width={{base:'90%',md:'92%',lg:'70%'}} margin='auto'>

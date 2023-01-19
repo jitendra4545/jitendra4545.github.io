@@ -3,10 +3,10 @@ import { useNavigate} from 'react-router-dom'
 
 
 function Project(){
-   
+
     return (
         <Box mt='10%'>
-           
+
            <Heading mb='5%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>PROJECTS</Heading>
            <Grid  p='25px' boxShadow='   skyblue 0px 5px 15px;' gap='7' gridTemplateColumns={{base:'repeat(1,1fr)',md:'repeat(1,1fr)',lg:'repeat(2,1fr)'}} >
                              <Box>

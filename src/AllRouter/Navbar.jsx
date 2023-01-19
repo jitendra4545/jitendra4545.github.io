@@ -19,7 +19,7 @@ function Navbar(){
   const btnRef = React.useRef()
     return(
       
-        <Box  bg='rgb(19, 39, 95)' zIndex='1000' position='sticky' top='0px' padding='15px 30px ' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+        <Box  bg='#02054B' zIndex='1000' position='sticky' top='0px' padding='15px 30px ' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
            
             <Box >
                <Heading fontStyle='italic' color='white'>Jitendra</Heading>  
@@ -30,6 +30,7 @@ function Navbar(){
                   <Box  >  
             <Tabs  variant='solid-rounded'>
                 <TabList  gap='8' >
+                  
                   <Link to="/"><Tab color='white' >Home</Tab></Link>
                    <Link to='/about'><Tab color='white' >About</Tab></Link> 
                   <Link to='/project'><Tab color='white' >Projects</Tab></Link> 
