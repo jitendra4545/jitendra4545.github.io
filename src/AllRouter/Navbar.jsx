@@ -8,7 +8,8 @@ import {
     DrawerBody,
     DrawerContent,DrawerOverlay,
     DrawerHeader,
-    Grid
+    Grid,
+   
 
 } from '@chakra-ui/react'
 import {HamburgerIcon} from '@chakra-ui/icons'
@@ -19,7 +20,7 @@ function Navbar(){
   const btnRef = React.useRef()
     return(
       
-        <Box  bg='#02054B' zIndex='1000' position='sticky' top='0px' padding='15px 30px ' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+        <Box  bg='#02054B' zIndex='1000' position='sticky' top='0px' padding='15px 30px ' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-around' display='flex'>
            
             <Box >
                <Heading fontStyle='italic' color='white'>Jitendra</Heading>  
@@ -35,7 +36,8 @@ function Navbar(){
                    <Link to='/about'><Tab color='white' >About</Tab></Link> 
                   <Link to='/project'><Tab color='white' >Projects</Tab></Link> 
                   <Link to='/skill'><Tab color='white' >Skills</Tab></Link> 
-                   <Link to='/contact'><Tab color='white' >Contact Me</Tab></Link> 
+                   <Link to='/contact'><Tab color='white' >Contact Me</Tab></Link>
+                   <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing'><Tab color='white' >Resume</Tab></a>  
                    </TabList>
          </Tabs> 
          </Box>

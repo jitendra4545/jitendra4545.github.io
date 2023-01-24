@@ -12,11 +12,11 @@ function App() {
   return (
     <Box   bg="#02054B"  className='App'> 
    
-   
+   <Navbar/>
    <Box width={{base:'90%',md:'92%',lg:'70%'}} margin='auto'>
     
     <Box>
-         <Navbar/>
+        
          <MainRoutes/>
      </Box>  
      </Box>

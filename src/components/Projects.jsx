@@ -33,7 +33,7 @@ function Project(){
                                     
                              </Box>
                              <Box >
-                                    <Image  src='https://i.postimg.cc/xdSmd12V/222.png' />
+                                    <Image src='https://i.postimg.cc/k72vf2YG/222.png'   />
                              </Box>
                     </Grid>
                    
