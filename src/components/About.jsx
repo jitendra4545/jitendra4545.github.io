@@ -8,7 +8,7 @@ function AboutMe(){
            <Heading mb='5%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>About</Heading>
            <SimpleGrid gap="30" columns={{base:'1',md:'1',lg:'2'}}>
                 <Box>
-                     <Image borderRadius='50px' w='80%' src='https://media.istockphoto.com/id/942384628/vector/job-interview-cartoon-people-character-isolated-illustration.jpg?s=612x612&w=0&k=20&c=wm1IRL1suSmeM9udbAPcY1MmK4mIlLzSNGB7-fH-NIU=' />
+                     <Image borderRadius='50px' w='90%' src='https://previews.123rf.com/images/chagin/chagin1109/chagin110900024/10492929-business-people-in-an-office-environment.jpg' />
                 </Box>
                 <Box  >
                 <Text mt='3%' w='100%' textAlign='left' lineHeight='30px' fontSize='2xl' color='grey' >

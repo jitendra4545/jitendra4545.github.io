@@ -20,17 +20,17 @@ function Navbar(){
   const btnRef = React.useRef()
     return(
       
-        <Box  bg='#02054B' zIndex='1000' position='sticky' top='0px' padding='15px 30px ' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-around' display='flex'>
+        <Box  bg='#02054B' zIndex='1000' position='sticky' top='0px' padding='15px 90px ' boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
            
             <Box >
-               <Heading fontStyle='italic' color='white'>Jitendra</Heading>  
+              <Link to='/'><Heading fontStyle='italic' color='white'>Jitendra</Heading> </Link>  
             </Box>
             {
                   isSmall ?
 //height='10vh' boxShadow=' rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;'
                   <Box  >  
             <Tabs  variant='solid-rounded'>
-                <TabList  gap='8' >
+                <TabList  gap='4' >
                   
                   <Link to="/"><Tab color='white' >Home</Tab></Link>
                    <Link to='/about'><Tab color='white' >About</Tab></Link> 
@@ -79,6 +79,9 @@ function Navbar(){
                         </Box>
                         <Box onClick={onClose}>
                         <Heading _hover={{color:"rgb(19, 39, 95)"}} color='white' textAlign='left' as='h3' size='lg'><Link to='/contact'>Contact</Link></Heading> 
+                        </Box>
+                        <Box onClick={onClose}>
+                        <Heading _hover={{color:"rgb(19, 39, 95)"}} color='white' textAlign='left' as='h3' size='lg'><a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing'>Resume</a></Heading> 
                         </Box>
                             </Grid>
                      </DrawerBody>

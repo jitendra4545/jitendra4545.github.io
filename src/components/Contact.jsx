@@ -171,32 +171,33 @@ import {ImLinkedin} from 'react-icons/im'
                     spacing={5}
                     px={5}
                     alignItems="flex-start">
-                    <IconButton
+                    <a href='https://www.facebook.com/profile.php?id=100008782692796'><IconButton
                       aria-label="facebook"
                       variant="ghost"
                       size="lg"
                       isRound={true}
                       _hover={{ bg: '#0D74FF' }}
                       icon={<MdFacebook size="28px" />}
-                    />
+                    /></a>
                    
-                  <IconButton
+                  <a href='https://github.com/jitendra4545'><IconButton
                       aria-label="github"
                       variant="ghost"
                       size="lg"
                       isRound={true}
                       _hover={{ bg: '#0D74FF' }}
                         icon={<BsGithub size="28px" />}
-                    /> 
+                    /> </a>
                   
-                    <IconButton
+                   <a href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <IconButton
                       aria-label="linkedin"
                       variant="ghost"
                       size="lg"
                       isRound={true}
                       _hover={{ bg: '#0D74FF' }}
                       icon={<ImLinkedin size="28px" />}
-                    />
+                    /></a>
+
                   </HStack>
                 </Box>
               </WrapItem>
@@ -211,7 +212,7 @@ import {ImLinkedin} from 'react-icons/im'
                             pointerEvents="none"
                             children={<BsPerson color="gray.800" />}
                           />
-                          <Input type="text" size="md" />
+                          <Input placeholder='Enter Name' type="text" size="md" />
                         </InputGroup>
                       </FormControl>
                       <FormControl id="name">
@@ -221,7 +222,7 @@ import {ImLinkedin} from 'react-icons/im'
                             pointerEvents="none"
                             children={<MdOutlineEmail color="gray.800" />}
                           />
-                          <Input type="text" size="md" />
+                          <Input placeholder='Enter Email' type="text" size="md" />
                         </InputGroup>
                       </FormControl>
                       <FormControl id="name">

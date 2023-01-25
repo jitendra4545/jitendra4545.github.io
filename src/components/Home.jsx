@@ -21,7 +21,7 @@ function HomePage(){
                    <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer who loves building projects.I am equipped with a variety of technologies and tools to help me build the best possible product.</Text>
                    <Box mt='7%' gap='5%' alignItems={'right'} display='flex'>
                     <Box>
-                <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <ImLinkedin color='blue' size="40px" /></Link>
+                <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <ImLinkedin color='white' size="40px" /></Link>
                     </Box>
                     <Box>
                       <Link href='https://github.com/jitendra4545'>  <BsGithub size='40px' color='white'/></Link>
