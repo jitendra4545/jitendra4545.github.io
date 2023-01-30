@@ -1,7 +1,9 @@
 import { Box, Heading, SimpleGrid, Image, Text, CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 import GitHubCalender from './GithubCalender'
 import GitHubStats from './GitHubStats'
-const data = [{
+const data = [
+    
+{
     imgURL: 'https://manojattri.vercel.app/static/media/html.2ba4fabc69a89a8f71e6.png',
     name: 'HTML'
 },
@@ -39,8 +41,6 @@ const data = [{
 }
 
 
-
-
 ]
 
 
@@ -50,7 +50,7 @@ function Skill() {
 
     return (
         <Box mt='10%' >
-            <Heading mb='5%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>Skills</Heading>
+            <Heading mb='5%' color='#02054B' transition='step-start' textAlign='left' as='h2' size='2xl'>Skills</Heading>
             <Heading as='h2' size='xl' color='#F60A68'>Frontend</Heading>
             <SimpleGrid mt='5%' gap="6" columns={{ base: '2', md: '3', lg: '3' }}>
 
@@ -58,9 +58,9 @@ function Skill() {
 
                 {
                     data.map((el) => (
-                        <Box m='auto' boxShadow=' #F60A68 3px 2px 2px 2px, #F60A68 2px 3px 3px 3px;' justifyContent='center' w={{ base: '11rem', md: "14rem", lg: '15rem' }} p={{ base: '10px 20px', md: '20px 70px' }} h={{ base: '12rem', md: '10rem', lg: '' }} gap='4' >
+                        <Box  _hover={{bg:'skyblue'}} bg='skyblue' m='auto' boxShadow='   #02054B 0px 5px 15px;' justifyContent='center' w={{ base: '11rem', md: "14rem", lg: '15rem' }} p={{ base: '10px 20px', md: '20px 70px' }} h={{ base: '12rem', md: '10rem', lg: '' }} gap='4' >
                             <Image src={el.imgURL} alt={el.name} />
-                            <Text color='white'>{el.name}</Text>
+                            <Text color='#02054B' fontWeight={'bold'}>{el.name}</Text>
                         </Box>
                     ))
                 }

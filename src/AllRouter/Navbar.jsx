@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import {
   Box, Button, Heading, TabList, Tabs, Tab, useMediaQuery,
@@ -17,27 +17,44 @@ import MainRoutes from './MainRoutes'
 function Navbar() {
   const [isSmall] = useMediaQuery('(min-width: 780px)')
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const [isscroll, setisscroll] = useState(false);
   const btnRef = React.useRef()
+
+  function isScrolling() {
+    if (window.scrollY > 80) {
+      setisscroll(true);
+    } else {
+      setisscroll(false);
+    }
+  }
+  useEffect(() => {
+    window.addEventListener("scroll", isScrolling);
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
+
+
   return (
 
-    <Box bg='#02054B' zIndex='1000' position='sticky' top='0px' padding={{ base: '15px 30px', md: '15px 40px', lg: '15px 90px' }} boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+    <Box bg={isscroll ? "#02054B":'skyblue'} zIndex='1000' position='sticky' top='0px' padding={{ base: '15px 30px', md: '15px 40px', lg: '15px 90px' }} boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, #02054B 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
 
       <Box >
-        <Link to='/'><Heading fontStyle='italic' color='white'>Jitendra</Heading> </Link>
+        <Link to='/'><Heading fontStyle='italic' color={isscroll ? 'skyblue':"#02054B"}>Jitendra</Heading> </Link>
       </Box>
       {
         isSmall ?
           //height='10vh' boxShadow=' rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;'
           <Box  >
-            <Tabs variant='solid-rounded'>
+            <Tabs color={'blue'} variant='solid-rounded'>
               <TabList gap='3' >
 
-                <Link to="/"><Tab color='white' >Home</Tab></Link>
-                <Link to='/about'><Tab color='white' >About</Tab></Link>
-                <Link to='/project'><Tab color='white' >Projects</Tab></Link>
-                <Link to='/skill'><Tab color='white' >Skills</Tab></Link>
-                <Link to='/contact'><Tab color='white' >Contact Me</Tab></Link>
-                <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing'><Tab color='white' >Resume</Tab></a>
+                <Link to="/"><Tab color={isscroll ? 'skyblue':"#02054B"} >Home</Tab></Link>
+                <Link to='/about'><Tab color={isscroll ? 'skyblue':"#02054B"} >About</Tab></Link>
+                <Link to='/project'><Tab color={isscroll ? 'skyblue':"#02054B"} >Projects</Tab></Link>
+                <Link to='/skill'><Tab color={isscroll ? 'skyblue':"#02054B"} >Skills</Tab></Link>
+                <Link to='/contact'><Tab color={isscroll ? 'skyblue':"#02054B"} >Contact Me</Tab></Link>
+                <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing'><Tab color={isscroll ? 'skyblue':"#02054B"} >Resume</Tab></a>
               </TabList>
             </Tabs>
           </Box>
