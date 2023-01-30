@@ -5,22 +5,22 @@ const GitHubStats = () => {
   return (
     // streak 
     <div>
-      <div 
-      style={{marginTop:'50px'}}
-       height={{
-      base: '40%', // 0-48em
-      md: '50%', // 48em-80em,
-      xl: '25%', // 80em+
-    }}
-   
-   
-    width={[
-      '40%', // 0-30em
-      '50%', // 30em-48em
-      '25%', // 48em-62em
-      '15%', // 62em+
-    ]}>
-    
+      <div
+        style={{ marginTop: '50px' }}
+        height={{
+          base: '40%', // 0-48em
+          md: '50%', // 48em-80em,
+          xl: '25%', // 80em+
+        }}
+
+
+        width={[
+          '40%', // 0-30em
+          '50%', // 30em-48em
+          '25%', // 48em-62em
+          '15%', // 62em+
+        ]}>
+
         <a href="https://github.com/jitendra4545">
           <img
             align="center"
@@ -29,28 +29,28 @@ const GitHubStats = () => {
           />
         </a>
       </div>
- 
-        <div  
-        // style={{
-        //   width: "60%",
-        //   height: "250px",
-        //   display: "flex",
-        //   margin: "auto",
-         
-        // }}
+
+      <div
+      // style={{
+      //   width: "60%",
+      //   height: "250px",
+      //   display: "flex",
+      //   margin: "auto",
+
+      // }}
       >
-        <a href="https://github.com/jitendra4545">  
+        <a href="https://github.com/jitendra4545">
           <img
             align="right"
-            src="https://github-readme-stats.vercel.app/api/top-langs/?username=jitendra4545" 
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=jitendra4545"
             alt="jitendra4545" //launguages
           />
         </a>
         <a href="https://github.com/jitendra4545">
           <img
-          style={{marginTop:'50px'}}
+            style={{ marginTop: '50px' }}
             align="center"
-            src="https://github-readme-stats.vercel.app/api?username=jitendra4545&count_private=true&show_icons=true" 
+            src="https://github-readme-stats.vercel.app/api?username=jitendra4545&count_private=true&show_icons=true"
             alt="jitendra4545"//stats
           />
         </a>

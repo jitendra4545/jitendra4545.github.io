@@ -6,7 +6,7 @@
 // import {SiGmail} from 'react-icons/si'
 // function ContactMe(){
 //     return (
-       
+
 //         <Box mt='7%' >
 //            <Heading mb='2%' color='white' transition='step-start' textAlign='left' as='h2' size='2xl'>Contact</Heading>
 //                <Text mt='4%' mb='3%' textAlign='left' color='white' >Submit the form below to get in touch with me</Text> 
@@ -15,7 +15,7 @@
 //                        <Box>
 //                                <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;'  padding='15px' display={'flex'}>
 //                                   <FcPhone size='30px'/>
-                        
+
 //                                 <Box ml='5px' textAlign={'left'}>
 //                                     <Box color='white'>
 //                                         <Heading  size='md'>Phone :</Heading>
@@ -26,11 +26,11 @@
 //                                         </Text>
 //                                     </Box>
 //                                 </Box>
-                                    
+
 //                                </Box>
 //                                <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;'mt='15px'  padding='15px' display={'flex'}>
 //                                   <SiGmail color='yellow' size='30px'/>
-                        
+
 //                                 <Box ml='5px' textAlign={'left'}>
 //                                     <Box color='white'>
 //                                         <Heading  size='md'>Email :</Heading>
@@ -41,11 +41,11 @@
 //                                         </Text>
 //                                     </Box>
 //                                 </Box>
-                                    
+
 //                                </Box>
 //                                <Box boxShadow=' #F60A68 0px 2px 2px 2px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;' mt='15px' padding='15px' display={'flex'}>
 //                                   <ImLocation2 color='red' size='30px'/>
-                        
+
 //                                 <Box ml='5px' textAlign={'left'}>
 //                                     <Box color='white'>
 //                                         <Heading  size='md'>Location :</Heading>
@@ -56,7 +56,7 @@
 //                                         </Text>
 //                                     </Box>
 //                                 </Box>
-                                    
+
 //                                </Box>
 //                        </Box>
 //                 </Box>
@@ -66,11 +66,11 @@
 //                                <Input type='email' color='white' placeholder='Enter your email' size='md' />
 //                                <Input type='mobile' color='white' placeholder='Enter your Mobile No' size='md' />
 //                                <Textarea color='white' placeholder='Enter your message'size='lg'  />
-                               
+
 //                       </Stack>
-                      
+
 //                     <Button borderRadius='30px'  mt='55px' bg='#F60A68' color='white' _hover={{bg:'blue'}} >Let's Connect</Button>
-                
+
 //                 </Box>
 //             </Grid>
 //         </Box>
@@ -84,7 +84,7 @@
 
 
 
-    import {
+import {
   Container,
   Flex,
   Box,
@@ -112,8 +112,8 @@ import {
 } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
-import {ImLinkedin} from 'react-icons/im'
- function ContactMe(){
+import { ImLinkedin } from 'react-icons/im'
+function ContactMe() {
   return (
     <Container bg="bg='rgb(19, 39, 95)'" maxW="full" mt={5} centerContent overflow="hidden">
       <Flex>
@@ -122,8 +122,8 @@ import {ImLinkedin} from 'react-icons/im'
           color="white"
           borderRadius="lg"
           border='1px solid skyblue'
-          m={{ sm: 4, md: 16, lg:10 }}
-          p={{ sm: 5, md: 5, lg: 10}}>
+          m={{ sm: 4, md: 16, lg: 10 }}
+          p={{ sm: 5, md: 5, lg: 10 }}>
           <Box p={4}>
             <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
               <WrapItem>
@@ -162,7 +162,7 @@ import {ImLinkedin} from 'react-icons/im'
                         color="#DCE2FF"
                         _hover={{ border: '2px solid #1C6FEB' }}
                         leftIcon={<MdLocationOn color="#1970F1" size="20px" />}>
-                       Cuttack,Odisha
+                        Cuttack,Odisha
                       </Button>
                     </VStack>
                   </Box>
@@ -179,17 +179,17 @@ import {ImLinkedin} from 'react-icons/im'
                       _hover={{ bg: '#0D74FF' }}
                       icon={<MdFacebook size="28px" />}
                     /></a>
-                   
-                  <a href='https://github.com/jitendra4545'><IconButton
+
+                    <a href='https://github.com/jitendra4545'><IconButton
                       aria-label="github"
                       variant="ghost"
                       size="lg"
                       isRound={true}
                       _hover={{ bg: '#0D74FF' }}
-                        icon={<BsGithub size="28px" />}
+                      icon={<BsGithub size="28px" />}
                     /> </a>
-                  
-                   <a href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <IconButton
+
+                    <a href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <IconButton
                       aria-label="linkedin"
                       variant="ghost"
                       size="lg"
