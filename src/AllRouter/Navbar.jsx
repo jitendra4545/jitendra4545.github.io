@@ -12,8 +12,9 @@ import {
 
 
 } from '@chakra-ui/react'
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HamburgerIcon } from '@chakra-ui/icons'
-import MainRoutes from './MainRoutes'
+
 function Navbar() {
   const [isSmall] = useMediaQuery('(min-width: 780px)')
   const { isOpen, onOpen, onClose } = useDisclosure()
