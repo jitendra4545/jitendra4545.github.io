@@ -8,10 +8,10 @@ function Project() {
               <Box mt='10%'>
 
                      <Heading mb='5%' color='#02054B' transition='step-start' textAlign='left' as='h2' size='2xl'>Projects</Heading>
-                     <Grid p='25px' boxShadow='   #02054B 0px 5px 15px;' gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid p='25px' bg="#02054B" boxShadow='   #02054B 0px 5px 15px;' gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='#F60A68'>Urban Company Clone</Heading>
-                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='black' >
+                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='white' >
                                           Urban Company provides a platform that allows skilled and experienced professionals to connect with users looking for specific services
                                    </Text>
                                    <Box mt='2%' mb='2%' gap='1' display='flex' w='30px'  >
@@ -38,10 +38,10 @@ function Project() {
                      </Grid>
 
 
-                     <Grid mt='2%' p='25px' boxShadow='   #02054B 0px 5px 15px;' gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid mt='2%' p='25px' boxShadow='   #02054B 0px 5px 15px;' gap='7' bg="#02054B" gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='#F60A68'>Myntra Clone</Heading>
-                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='black' >
+                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='white' >
                                           Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products
                                    </Text>
                                    <Box mt='2%' mb='2%' gap='1' display='flex' w='30px'  >
@@ -63,10 +63,10 @@ function Project() {
                                    <Image src='https://i.postimg.cc/cHgFNJMy/1.png' />
                             </Box>
                      </Grid>
-                     <Grid mt='2%' p='25px' boxShadow='   #02054B 0px 5px 15px;' gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid mt='2%' p='25px' bg="#02054B" boxShadow='   #02054B 0px 5px 15px;' gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='#F60A68'>Fathom Health Clone</Heading>
-                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='black' >
+                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='white' >
                                           Fathom develops a coding automation platform designed to expedite medical coding practice
 
                                    </Text>
@@ -87,10 +87,10 @@ function Project() {
                                    <Image src='https://i.postimg.cc/kgS89tLy/11.png' />
                             </Box>
                      </Grid>
-                     <Grid mt='2%' p='25px' boxShadow='   #02054B 0px 5px 15px;' gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid mt='2%' p='25px' bg="#02054B" boxShadow='   #02054B 0px 5px 15px;' gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='#F60A68'>Hubspot.com Clone</Heading>
-                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='black' >
+                                   <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='white' >
                                           HubSpot is a CRM platform that connects everything scaling companies need to deliver a best-in-class customer experience into one place
                                    </Text>
                                    <Box mt='2%' mb='2%' gap='1' display='flex' w='30px'  >

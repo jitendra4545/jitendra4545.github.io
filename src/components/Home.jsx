@@ -7,6 +7,7 @@ import { ImLinkedin } from 'react-icons/im'
 import Resume from '../Resume/Jitendra-Ghadei-Resume.pdf.pdf'
 import GitHubStats from './GitHubStats'
 import { BsGithub } from 'react-icons/bs'
+import GitHubCalendar from 'react-github-calendar'
 function HomePage() {
 
   const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
@@ -40,6 +41,7 @@ function HomePage() {
 
       <AboutMe />
       <Skill />
+      <GitHubCalendar/>
       <GitHubStats />
       <Project />
       <ContactMe />

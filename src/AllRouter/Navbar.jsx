@@ -38,10 +38,10 @@ function Navbar() {
 
   return (
 
-    <Box bg={isscroll ? "#02054B":'skyblue'} zIndex='1000' position='sticky' top='0px' padding={{ base: '15px 30px', md: '15px 40px', lg: '15px 90px' }} boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, #02054B 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+    <Box bg={isscroll ? "#02054B":'white'} zIndex='1000' position='sticky' top='0px' padding={{ base: '15px 30px', md: '15px 40px', lg: '15px 90px' }} boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
 
       <Box >
-        <Link to='/'><Heading fontStyle='italic' color={isscroll ? 'skyblue':"#02054B"}>Jitendra</Heading> </Link>
+        <Link to='/'><Heading fontStyle='italic' color={isscroll ? 'white':"#02054B"}>Jitendra</Heading> </Link>
       </Box>
       {
         isSmall ?
@@ -50,12 +50,12 @@ function Navbar() {
             <Tabs color={'blue'} variant='solid-rounded'>
               <TabList gap='3' >
 
-                <Link to="/"><Tab color={isscroll ? 'skyblue':"#02054B"} >Home</Tab></Link>
-                <Link to='/about'><Tab color={isscroll ? 'skyblue':"#02054B"} >About</Tab></Link>
-                <Link to='/project'><Tab color={isscroll ? 'skyblue':"#02054B"} >Projects</Tab></Link>
-                <Link to='/skill'><Tab color={isscroll ? 'skyblue':"#02054B"} >Skills</Tab></Link>
-                <Link to='/contact'><Tab color={isscroll ? 'skyblue':"#02054B"} >Contact Me</Tab></Link>
-                <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing'><Tab color={isscroll ? 'skyblue':"#02054B"} >Resume</Tab></a>
+                <Link to="/"><Tab color={isscroll ? 'white':"#02054B"} >Home</Tab></Link>
+                <Link to='/about'><Tab color={isscroll ? 'white':"#02054B"} >About</Tab></Link>
+                <Link to='/project'><Tab color={isscroll ? 'white':"#02054B"} >Projects</Tab></Link>
+                <Link to='/skill'><Tab color={isscroll ? 'white':"#02054B"} >Skills</Tab></Link>
+                <Link to='/contact'><Tab color={isscroll ? 'white':"#02054B"} >Contact Me</Tab></Link>
+                <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing'><Tab color={isscroll ? 'white':"#02054B"} >Resume</Tab></a>
               </TabList>
             </Tabs>
           </Box>
