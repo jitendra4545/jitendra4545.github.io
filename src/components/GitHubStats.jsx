@@ -4,9 +4,9 @@ import "../App.css";
 const GitHubStats = () => {
   return (
     // streak 
-    <div style={{display:"grid"}}>
+    <div style={{display:"flex" }}>
       <div
-        style={{ marginTop: '50px',boxShadow:'   #02054B 0px 5px 15px;' }}
+        style={{ marginTop: '50px', }}
         height={{
           base: '40%', // 0-48em
           md: '50%', // 48em-80em,
@@ -31,15 +31,15 @@ const GitHubStats = () => {
       </div>
 
       <div
-      style={{display:"grid",marginTop:"30px"}}
+      style={{display:"grid"}}
       >
-        <a href="https://github.com/jitendra4545">
+        {/* <a href="https://github.com/jitendra4545">
           <img
             align="center"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=jitendra4545"
             alt="jitendra4545" //launguages
           />
-        </a>
+        </a> */}
         <a href="https://github.com/jitendra4545">
           <img
             style={{ marginTop: '50px' }}

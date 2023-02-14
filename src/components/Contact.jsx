@@ -115,21 +115,23 @@ import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
 import { ImLinkedin } from 'react-icons/im'
 function ContactMe() {
   return (
-    <Container bg="bg='rgb(19, 39, 95)'" maxW="full" mt={5} centerContent overflow="hidden">
+    <Box id='contact'>
+       <Heading mb='1%' mt='5%' color='blue' transition='step-start' textAlign='left' as='h2' size='2xl'>Contact</Heading>
+    <Container  maxW="full" mt={5} centerContent overflow="hidden">
       <Flex>
         <Box
-          bg="#02054B"
+          bg="blue"
           color="white"
           borderRadius="lg"
-          border='1px solid skyblue'
+          boxShadow='rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;'
           m={{ sm: 4, md: 16, lg: 10 }}
           p={{ sm: 5, md: 5, lg: 10 }}>
           <Box p={4}>
-            <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 20 }}>
+            <Wrap spacing={{ base: 20, sm: 3, md: 5, lg: 10 }}>
               <WrapItem>
                 <Box>
-                  <Heading>Contact</Heading>
-                  <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
+                  
+                  <Text mt={{ sm: 3, md: 3, lg: 5 }}  color="white">
                     Fill up the form below to contact
                   </Text>
                   <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
@@ -139,9 +141,9 @@ function ContactMe() {
                         height="48px"
                         width="250px"
                         variant="ghost"
-                        color="#DCE2FF"
+                        color="white"
                         _hover={{ border: '2px solid #1C6FEB' }}
-                        leftIcon={<MdPhone color="#1970F1" size="20px" />}>
+                        leftIcon={<MdPhone color="black" size="20px" />}>
                         +91-9348788367
                       </Button>
                       <Button
@@ -149,9 +151,9 @@ function ContactMe() {
                         height="48px"
                         width="250px"
                         variant="ghost"
-                        color="#DCE2FF"
+                        color="white"
                         _hover={{ border: '2px solid #1C6FEB' }}
-                        leftIcon={<MdEmail color="#1970F1" size="20px" />}>
+                        leftIcon={<MdEmail color="yellow" size="20px" />}>
                         jitendra45.js45@gmail.com
                       </Button>
                       <Button
@@ -159,9 +161,9 @@ function ContactMe() {
                         height="48px"
                         width="200px"
                         variant="ghost"
-                        color="#DCE2FF"
+                        color="white"
                         _hover={{ border: '2px solid #1C6FEB' }}
-                        leftIcon={<MdLocationOn color="#1970F1" size="20px" />}>
+                        leftIcon={<MdLocationOn color="red" size="20px" />}>
                         Cuttack,Odisha
                       </Button>
                     </VStack>
@@ -238,9 +240,9 @@ function ContactMe() {
                       <FormControl id="name" float="right">
                         <Button
                           variant="solid"
-                          bg="#0D74FF"
+                          bg="black"
                           color="white"
-                          _hover={{}}>
+                          _hover={{bg:'blue'}}>
                           Send Message
                         </Button>
                       </FormControl>
@@ -253,6 +255,7 @@ function ContactMe() {
         </Box>
       </Flex>
     </Container>
+    </Box>
   );
 }
 

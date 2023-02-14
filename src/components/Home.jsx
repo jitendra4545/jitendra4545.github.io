@@ -14,12 +14,12 @@ function HomePage() {
 
   return (
     <>
-      <SimpleGrid mt='12%' columns={{ base: '1', md: '2', lg: '2' }} spacing={20}>
+      <SimpleGrid  mt='12%' columns={{ base: '1', md: '2', lg: '2' }} spacing={20}>
         <Box w={{ base: '100%', md: '120%', lg: '140%' }} textAlign='left'>
-          <Heading color='#02054B' as='h2' size='2xl'>I'm</Heading>
-          <Heading color='#F60A68' as='h2' size='2xl'>Jitendra Kumar Ghadei</Heading>
-          <Heading color='#02054B' as='h2' size='2xl'>Full Stack Web Developer</Heading>
-          <Text mt='3%' lineHeight='30px' fontSize='2xl' color='black' >A Full Stack Developer who loves building projects.I am equipped with a variety of technologies and tools to help me build the best possible product.</Text>
+          <Heading color='' as='h2' size='2xl'>I'm</Heading>
+          <Heading color='blue' as='h2' size='2xl'>Jitendra Kumar Ghadei</Heading>
+          <Heading color='' as='h2' size='2xl'>Full Stack Web Developer</Heading>
+          <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer who loves building projects.I am equipped with a variety of technologies and tools to help me build the best possible product.</Text>
           <Box mt='7%' gap='5%' alignItems={'right'} display='flex'>
             <Box>
               <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <ImLinkedin color='blue' size="40px" /></Link>
@@ -28,7 +28,7 @@ function HomePage() {
               <Link href='https://github.com/jitendra4545'>  <BsGithub size='40px' color='black' /></Link>
             </Box>
             <Box   >
-              <Button _hover={{ bg: '#02054B' }} color='white' backgroundColor='#F60A68'><Link href={Resume} download  >RESUME</Link></Button>
+              <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'><Link href={Resume} download  >RESUME</Link></Button>
             </Box>
           </Box>
         </Box>
