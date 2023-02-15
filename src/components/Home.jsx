@@ -8,9 +8,16 @@ import Resume from '../Resume/Jitendra-Ghadei-Resume.pdf.pdf'
 import GitHubStats from './GitHubStats'
 import { BsGithub } from 'react-icons/bs'
 import GitHubCalendar from 'react-github-calendar'
+// import AOS from 'aos'
+// import 'aos/dist/aos.css';
+import { useEffect } from 'react'
 function HomePage() {
 
   const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
+
+  // useEffect(()=>{
+  //  AOS.init()
+  // },[])
 
   return (
     <>
@@ -33,7 +40,7 @@ function HomePage() {
           </Box>
         </Box>
         <Box w='100%' >
-          <Box justifyContent='right' display='flex'  >
+          <Box  justifyContent='right' display='flex'  >
             <Image boxShadow='   #02054B 0px 5px 15px;' borderRadius='50px' w='320px' src='https://avatars.githubusercontent.com/u/107980469?v=4' />
           </Box>
         </Box>

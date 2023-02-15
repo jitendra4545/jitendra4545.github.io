@@ -44,7 +44,7 @@ function Navbar() {
 
   return (
 
-    <Box  bg={isscroll ? "blue" : 'white'} zIndex='1000' position='sticky' top='0px' padding={{ base: '15px 30px', md: '15px 40px', lg: '15px 90px' }} boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
+    <Box  bg={isscroll ? "blue" : 'white'} zIndex='1000' position='sticky' top='0px' padding={{ base: '15px 30px', md: '15px 40px', lg: '10px 90px' }} boxShadow='rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, skyblue 0px 4px 6px -2px;' justifyContent='space-between' display='flex'>
 
       <Box >
         <Link smooth to="#home"><Heading fontStyle='italic' color={isscroll ? 'white' : "blue"}>Jitendra</Heading> </Link>

@@ -8,7 +8,7 @@ function Project() {
               <Box id='project' mt='10%'>
 
                      <Heading mb='5%' color='blue' transition='step-start' textAlign='left' as='h2' size='2xl'>Projects</Heading>
-                     <Grid p='25px' borderRadius={'20px'} boxShadow={`blue 2px 2px 4px 4px`} gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid p='25px' borderRadius={'20px'} _hover={{boxShadow:'skyblue 2px 2px 4px 4px'}} boxShadow={`blue 2px 2px 4px 4px`} gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='blue'>Urban Company Clone</Heading>
                                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
@@ -38,7 +38,7 @@ function Project() {
                      </Grid>
 
 
-                     <Grid borderRadius={'20px'} mt='2%' p='25px' boxShadow={`blue 2px 2px 4px 4px`} gap='7' bg="white" gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid borderRadius={'20px'} _hover={{boxShadow:'skyblue 2px 2px 4px 4px'}} mt='2%' p='25px' boxShadow={`blue 2px 2px 4px 4px`} gap='7' bg="white" gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='blue'>Myntra Clone</Heading>
                                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
@@ -63,7 +63,7 @@ function Project() {
                                    <Image src='https://i.postimg.cc/cHgFNJMy/1.png' />
                             </Box>
                      </Grid>
-                     <Grid borderRadius={'20px'} mt='2%' p='25px' bg="white" boxShadow={`blue 2px 2px 4px 4px`} gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid _hover={{boxShadow:'skyblue 2px 2px 4px 4px'}} borderRadius={'20px'} mt='2%' p='25px' bg="white" boxShadow={`blue 2px 2px 4px 4px`} gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='blue'>Fathom Health Clone</Heading>
                                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
@@ -87,7 +87,7 @@ function Project() {
                                    <Image src='https://i.postimg.cc/kgS89tLy/11.png' />
                             </Box>
                      </Grid>
-                     <Grid borderRadius={'20px'} mt='2%' p='25px' bg="white" boxShadow={`blue 2px 2px 4px 4px`} gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
+                     <Grid _hover={{boxShadow:'skyblue 2px 2px 4px 4px'}} borderRadius={'20px'} mt='2%' p='25px' bg="white" boxShadow={`blue 2px 2px 4px 4px`} gap='7' gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(1,1fr)', lg: 'repeat(2,1fr)' }} >
                             <Box>
                                    <Heading textAlign='left' as='h4' size='lg' color='blue'>Hubspot.com Clone</Heading>
                                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >

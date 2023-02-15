@@ -1,6 +1,5 @@
-import { Box, Heading, SimpleGrid, Image, Text, CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
-import GitHubCalender from './GithubCalender'
-import GitHubStats from './GitHubStats'
+import { Box, Heading, SimpleGrid, Image, Text } from '@chakra-ui/react'
+
 const data = [
     
 {
@@ -87,7 +86,8 @@ function Skill() {
 
 
     return (
-        <Box id='skill' mt='10%' >
+        <Box id='skill'>
+        <Box  mt='10%' >
             <Heading mb='5%' color='blue' transition='step-start' textAlign='left' as='h2' size='2xl'>Skills</Heading>
             <Heading as='h2' size='xl' color='grey'>Frontend & Backend</Heading>
             <SimpleGrid mt='5%' gap="6" columns={{ base: '2', md: '3', lg: '5' }}>
@@ -97,7 +97,7 @@ function Skill() {
                 {
                     data.map((el) => (
                         
-                        <Box  borderRadius={'15px'}   m='auto' boxShadow={`blue 2px 2px 4px 4px`}justifyContent='center' w={{ base: '9rem', md: "14rem", lg: '100%' }} h={{ base: '7rem', md: '10rem', lg: '17vh' }} p={{base:"10px",md:"",lg:"20px"}}gap='1' >
+                        <Box _hover={{boxShadow:'skyblue 2px 2px 4px 4px'}} borderRadius={'15px'}   m='auto' boxShadow={`blue 2px 2px 4px 4px`}justifyContent='center' w={{ base: '9rem', md: "14rem", lg: '100%' }} h={{ base: '7rem', md: '10rem', lg: '17vh' }} p={{base:"10px",md:"",lg:"20px"}}gap='1' >
                             <Image m='auto' w={'35%'} src={el.imgURL} alt={el.name} />
                             <Text mt='5px'  fontSize={'20px'}  color='black' fontWeight={'bold'}>{el.name}</Text>
                         </Box>
@@ -107,40 +107,11 @@ function Skill() {
 
 
             </SimpleGrid>
-            {/* <SimpleGrid bg="#02054B" mt='7%' columns={{ base: '2', md: '4', lg: '4' }} >
-                <Box >
-                    <CircularProgress size='130px' value={75} color='orange.300'>
-                        <CircularProgressLabel color='orange.500'>75%</CircularProgressLabel>
-                    </CircularProgress>
-                    <Heading as='h4' size='md' color='white'>HTML</Heading>
-                </Box>
-                <Box>
-                    <CircularProgress size='130px' value={70} color='skyblue'>
-                        <CircularProgressLabel color='skyblue' >70%</CircularProgressLabel>
-                    </CircularProgress>
-                    <Heading as='h4' size='md' color='white'>CSS</Heading>
-                </Box>
-                <Box>
-                    <CircularProgress size='130px' value={80} color='yellow'>
-                        <CircularProgressLabel color='yellow'>80%</CircularProgressLabel>
-                    </CircularProgress>
-                    <Heading as='h4' size='md' color='white'>JavaScript</Heading>
-                </Box>
-                <Box>
-                    <CircularProgress size='130px' value={80} color='violet'>
-                        <CircularProgressLabel color='violet'>80%</CircularProgressLabel>
-                    </CircularProgress>
-                    <Heading as='h4' size='md' color='white'>React</Heading>
-                </Box>
-
-            </SimpleGrid> */}
+          
 
             <Heading as='h2' mt='7%' size='xl' color='grey'>GitHub Calender</Heading>
 
-           
-            {/* <Box>
-                <GitHubStats/>
-            </Box> */}
+        </Box>
         </Box>
     )
 }
