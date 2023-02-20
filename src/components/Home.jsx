@@ -29,19 +29,19 @@ function HomePage() {
           <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer who loves building projects.I am equipped with a variety of technologies and tools to help me build the best possible product.</Text>
           <Box mt='7%' gap='5%' alignItems={'right'} display='flex'>
             <Box>
-              <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <ImLinkedin color='blue' size="40px" /></Link>
+              <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228' target={'_blank'}> <ImLinkedin color='blue' size="40px" /></Link>
             </Box>
             <Box>
-              <Link href='https://github.com/jitendra4545'>  <BsGithub size='40px' color='black' /></Link>
+              <Link href='https://github.com/jitendra4545' target={'_blank'}>  <BsGithub size='40px' color='black' /></Link>
             </Box>
             <Box   >
-              <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'><Link href={Resume} download  >RESUME</Link></Button>
+             <Link href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing' target={'_blank'}> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'><Link href={Resume}  download   >RESUME</Link></Button></Link>
             </Box>
           </Box>
         </Box>
         <Box w='100%' >
           <Box  justifyContent='right' display='flex'  >
-            <Image boxShadow='   #02054B 0px 5px 15px;' borderRadius='50px' w='320px' src='https://avatars.githubusercontent.com/u/107980469?v=4' />
+            <Image boxShadow='   #02054B 0px 5px 15px;' borderRadius='50px' w='320px' src='https://avatars.githubusercontent.com/u/107980469?s=400&u=3bbaff5249432adc50d312eed688155755371caf&v=4' />
           </Box>
         </Box>
       </SimpleGrid>

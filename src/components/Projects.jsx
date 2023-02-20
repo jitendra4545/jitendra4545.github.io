@@ -22,10 +22,10 @@ function Project() {
                                    </Box>
                                    <Box gap='2' display='flex' m='auto' >
                                           <Box>
-                                                 <Link href='https://github.com/hustler-abhi/busy-motion-6100' ><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link>
+                                                 <Link href='https://github.com/hustler-abhi/busy-motion-6100' target={'_blank'} ><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link>
                                           </Box>
                                           <Box>
-                                                 <Link href={'https://lambent-paprenjak-947e76.netlify.app/'}> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link>
+                                                 <Link href={'https://lambent-paprenjak-947e76.netlify.app/'} target={'_blank'}> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link>
                                           </Box>
 
 
@@ -52,8 +52,8 @@ function Project() {
                                           <Image src='https://manojattri.vercel.app/static/media/chakra.e4cb472ccaabf22affba.png' />
                                    </Box>
                                    <Box gap='2' display='flex' m='auto' >
-                                          <Box> <Link href='https://github.com/gaurav62472744/halting-title-3346'><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link></Box>
-                                          <Box> <Link href='https://halting-title-3346.vercel.app/'> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link></Box>
+                                          <Box> <Link href='https://github.com/gaurav62472744/halting-title-3346' target={'_blank'}><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link></Box>
+                                          <Box> <Link href='https://halting-title-3346.vercel.app/' target={'_blank'}> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link></Box>
 
 
                                    </Box>
@@ -77,8 +77,8 @@ function Project() {
 
                                    </Box>
                                    <Box gap='2' display='flex' m='auto' >
-                                          <Box> <Link href='https://github.com/jitendra4545/-tedious-advertisement-2369'><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link></Box>
-                                          <Box> <Link href='https://fancy-queijadas-c9c9f4.netlify.app/'> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link></Box>
+                                          <Box> <Link href='https://github.com/jitendra4545/-tedious-advertisement-2369' target={'_blank'}><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link></Box>
+                                          <Box> <Link href='https://fancy-queijadas-c9c9f4.netlify.app/' target={'_blank'}> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link></Box>
 
                                    </Box>
 
@@ -101,8 +101,8 @@ function Project() {
                                           <Image src='https://manojattri.vercel.app/static/media/redux.1b4bb5fceb01b19da59d.png' />
                                    </Box>
                                    <Box gap='2' display='flex' m='auto' >
-                                          <Box> <Link href='https://github.com/anwarjitme/green-room-4314/tree/main'><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link></Box>
-                                          <Box> <Link href='https://subtle-semifreddo-ade928.netlify.app/'> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link></Box>
+                                          <Box> <Link href='https://github.com/anwarjitme/green-room-4314/tree/main' target={'_blank'}><Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>CODE</Button></Link></Box>
+                                          <Box> <Link href='https://subtle-semifreddo-ade928.netlify.app/' target={'_blank'}> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>LIVE</Button></Link></Box>
 
 
                                    </Box>

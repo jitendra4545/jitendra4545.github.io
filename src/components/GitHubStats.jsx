@@ -21,7 +21,7 @@ const GitHubStats = () => {
           '15%', // 62em+
         ]}>
 
-        <a href="https://github.com/jitendra4545">
+        <a target={'_blank'} href="https://github.com/jitendra4545">
           <img
             align="center"
             src="https://github-readme-streak-stats.herokuapp.com/?user=jitendra4545"
@@ -40,7 +40,7 @@ const GitHubStats = () => {
             alt="jitendra4545" //launguages
           />
         </a> */}
-        <a href="https://github.com/jitendra4545">
+        <a target={'_blank'} href="https://github.com/jitendra4545">
           <img
             style={{ marginTop: '50px' }}
             align="center"

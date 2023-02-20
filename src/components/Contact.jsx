@@ -173,7 +173,7 @@ function ContactMe() {
                     spacing={5}
                     px={5}
                     alignItems="flex-start">
-                    <a href='https://www.facebook.com/profile.php?id=100008782692796'><IconButton
+                    <a target={'_blank'} href='https://www.facebook.com/profile.php?id=100008782692796'><IconButton
                       aria-label="facebook"
                       variant="ghost"
                       size="lg"
@@ -182,7 +182,7 @@ function ContactMe() {
                       icon={<MdFacebook size="28px" />}
                     /></a>
 
-                    <a href='https://github.com/jitendra4545'><IconButton
+                    <a target={'_blank'} href='https://github.com/jitendra4545'><IconButton
                       aria-label="github"
                       variant="ghost"
                       size="lg"
@@ -191,7 +191,7 @@ function ContactMe() {
                       icon={<BsGithub size="28px" />}
                     /> </a>
 
-                    <a href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <IconButton
+                    <a target={'_blank'} href='https://www.linkedin.com/in/jitendra-ghadei-01424a228'> <IconButton
                       aria-label="linkedin"
                       variant="ghost"
                       size="lg"
