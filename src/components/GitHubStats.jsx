@@ -1,10 +1,11 @@
 import React from "react";
 //import styled from "styled-components";
+import { Box } from "@chakra-ui/react";
 import "../App.css";
 const GitHubStats = () => {
   return (
     // streak 
-    <div style={{display:"flex" }}>
+    <Box  display={'grid'} gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(2,1fr)', lg: 'repeat(2,1fr)' }} >
       <div
         style={{ marginTop: '50px', }}
         height={{
@@ -49,7 +50,7 @@ const GitHubStats = () => {
           />
         </a>
       </div>
-    </div>
+    </Box>
   );
 };
 

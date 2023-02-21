@@ -87,13 +87,13 @@ const tools=[
     ,
     {
         imgURL:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png",
-        name:"NPM",
+        name:"VS Code",
         color:'red'
     }
     ,
     {
         imgURL:"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png",
-        name:"NPM",
+        name:"Replit",
         color:'red'
     }
 ]

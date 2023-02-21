@@ -61,7 +61,7 @@ function Navbar() {
                 <Link smooth to='#project'><Tab color={isscroll ? 'white' : "#02054B"} >Projects</Tab></Link>
                 <Link smooth to='#skill'><Tab color={isscroll ? 'white' : "#02054B"} >Skills</Tab></Link>
                 <Link smooth to='#contact'><Tab color={isscroll ? 'white' : "#02054B"} >Contact Me</Tab></Link>
-                <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing'><Tab color={isscroll ? 'white' : "#02054B"} >Resume</Tab></a>
+                <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing' target={'_blank'}><Tab color={isscroll ? 'white' : "#02054B"} >Resume</Tab></a>
               </TabList>
             </Tabs>
           </Box>

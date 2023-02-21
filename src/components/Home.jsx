@@ -7,7 +7,7 @@ import { ImLinkedin } from 'react-icons/im'
 import Resume from '../Resume/Jitendra-Ghadei-Resume.pdf.pdf'
 import GitHubStats from './GitHubStats'
 import { BsGithub } from 'react-icons/bs'
-import GitHubCalendar from 'react-github-calendar'
+import GitHubCalendar from './GithubCalender'
 // import AOS from 'aos'
 // import 'aos/dist/aos.css';
 import { useEffect } from 'react'
