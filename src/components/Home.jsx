@@ -35,7 +35,7 @@ function HomePage() {
               <Link href='https://github.com/jitendra4545' target={'_blank'}>  <BsGithub size='40px' color='black' /></Link>
             </Box>
             <Box   >
-             <Link href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing' target={'_blank'}> <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'><Link href={Resume}  download   >RESUME</Link></Button></Link>
+         <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'><Link  href={Resume}  download   >RESUME</Link></Button>
             </Box>
           </Box>
         </Box>
