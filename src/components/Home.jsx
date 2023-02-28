@@ -4,20 +4,19 @@ import Skill from './Skills'
 import Project from './Projects'
 import ContactMe from './Contact'
 import { ImLinkedin } from 'react-icons/im'
-import Resume from '../Resume/Jitendra-Kumar-Ghadei-Resume.pdf'
+import Resume from '../Resume/fw19_0117-Jitendra-Ghadei-Resume.pdf'
 import GitHubStats from './GitHubStats'
 import { BsGithub } from 'react-icons/bs'
 import GitHubCalendar from './GithubCalender'
-// import AOS from 'aos'
-// import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 function HomePage() {
 
   const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
 
-  // useEffect(()=>{
-  //  AOS.init()
-  // },[])
+  const handleOpen=()=>{
+    window.open(`https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing`)
+  }
+
 
   return (
     <>
@@ -35,7 +34,7 @@ function HomePage() {
               <Link href='https://github.com/jitendra4545' target={'_blank'}>  <BsGithub size='40px' color='black' /></Link>
             </Box>
             <Box   >
-         <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'><Link  href={Resume}  download   >RESUME</Link></Button>
+            <Link onClick={handleOpen}  href={Resume}  download   > <Button _hover={{ bg: 'blue' }} color='white' backgroundColor='black'>RESUME</Button></Link>
             </Box>
           </Box>
         </Box>
