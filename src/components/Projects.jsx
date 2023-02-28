@@ -14,6 +14,7 @@ function Project() {
                                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
                                           Urban Company provides a platform that allows skilled and experienced professionals to connect with users looking for specific services
                                    </Text>
+                                   <Text color='blue' fontWeight={'bold'} textAlign={'left'} >Tech Stack</Text>
                                    <Box  mt='2%' mb='2%' gap='1' display='flex' w={{base:'35%',md:'26%',lg:'26%'}}  >
                                           <Box w='30%' >
                                           <Image src='https://manojattri.vercel.app/static/media/html.2ba4fabc69a89a8f71e6.png' />
@@ -56,6 +57,7 @@ function Project() {
                                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
                                           Myntra is a one stop shop for all your fashion and lifestyle needs. Being India's largest e-commerce store for fashion and lifestyle products
                                    </Text>
+                                   <Text color='blue' fontWeight={'bold'} textAlign={'left'} >Tech Stack</Text>
                                    <Box  mt='2%' mb='2%' gap='1' display='flex' w={{base:'47%',md:'33%',lg:'33%'}}  >
                                           <Box w='30%' >
                                           <Image src='https://manojattri.vercel.app/static/media/html.2ba4fabc69a89a8f71e6.png' />
@@ -97,6 +99,7 @@ function Project() {
                                           Fathom develops a coding automation platform designed to expedite medical coding practice
 
                                    </Text>
+                                   <Text color='blue' fontWeight={'bold'} textAlign={'left'} >Tech Stack</Text>
                                    <Box  mt='2%' mb='2%' gap='1' display='flex'  w={{base:'35%',md:'26%',lg:'26%'}}  >
                                           <Box w='30%' >
                                           <Image src='https://manojattri.vercel.app/static/media/html.2ba4fabc69a89a8f71e6.png' />
@@ -129,7 +132,7 @@ function Project() {
                                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
                                           HubSpot is a CRM platform that connects everything scaling companies need to deliver a best-in-class customer experience into one place
                                    </Text>
-                                  
+                                   <Text color='blue' fontWeight={'bold'} textAlign={'left'} >Tech Stack</Text>
                                    <Box  mt='2%' mb='2%' gap='1' display='flex' w={{base:'65%',md:'45%',lg:'45%'}}  >
                                           <Box w='30%' >
                                           <Image src='https://manojattri.vercel.app/static/media/html.2ba4fabc69a89a8f71e6.png' />

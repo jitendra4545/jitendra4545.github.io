@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 // import { Link } from 'react-router-dom'
-import {HashLink as Link} from 'react-router-hash-link'
+//import {HashLink as Link} from 'react-router-hash-link'
 import {
   Box, Button, Heading, TabList, Tabs, Tab, useMediaQuery,
   useDisclosure,
@@ -13,11 +13,12 @@ import {
   Menu,
   MenuButton,
   MenuList,
-  MenuItem
-
+  MenuItem,
+Link
 
 
 } from '@chakra-ui/react'
+import Resume from '../Resume/fw19_0117-Jitendra-Ghadei-Resume.pdf'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HamburgerIcon } from '@chakra-ui/icons'
 
@@ -41,6 +42,9 @@ function Navbar() {
     };
   }, []);
 
+  const handleOpen=()=>{
+    window.open(`https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing`)
+  }
 
   return (
 
@@ -61,7 +65,7 @@ function Navbar() {
                 <Link smooth to='#project'><Tab color={isscroll ? 'white' : "#02054B"} >Projects</Tab></Link>
                 <Link smooth to='#skill'><Tab color={isscroll ? 'white' : "#02054B"} >Skills</Tab></Link>
                 <Link smooth to='#contact'><Tab color={isscroll ? 'white' : "#02054B"} >Contact Me</Tab></Link>
-                <a href='https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing' target={'_blank'}><Tab color={isscroll ? 'white' : "#02054B"} >Resume</Tab></a>
+                <Link onClick={handleOpen}  href={Resume}  download   ><Tab>Resume</Tab></Link>
               </TabList>
             </Tabs>
           </Box>

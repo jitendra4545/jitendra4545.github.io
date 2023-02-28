@@ -5,9 +5,9 @@ import "../App.css";
 const GitHubStats = () => {
   return (
     // streak 
-    <Box  display={'grid'} gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(2,1fr)', lg: 'repeat(2,1fr)' }} >
+    <Box marginTop={{base:'-110px'}} display={'grid'} gridTemplateColumns={{ base: 'repeat(1,1fr)', md: 'repeat(2,1fr)', lg: 'repeat(2,1fr)' }} >
       <div
-        style={{ marginTop: '50px', }}
+        // style={{ marginTop: '50px', }}
         height={{
           base: '40%', // 0-48em
           md: '50%', // 48em-80em,
@@ -43,7 +43,7 @@ const GitHubStats = () => {
         </a> */}
         <a target={'_blank'} href="https://github.com/jitendra4545">
           <img
-            style={{ marginTop: '50px' }}
+            // style={{ marginTop: '50px' }}
             align="center"
             src="https://github-readme-stats.vercel.app/api?username=jitendra4545&count_private=true&show_icons=true"
             alt="jitendra4545"//stats
