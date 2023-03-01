@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
-// import { Link } from 'react-router-dom'
-//import {HashLink as Link} from 'react-router-hash-link'
+import { Link as Think } from '@chakra-ui/react'
+import {HashLink as Link} from 'react-router-hash-link'
 import {
   Box, Button, Heading, TabList, Tabs, Tab, useMediaQuery,
   useDisclosure,
@@ -14,7 +14,7 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-Link
+// Link
 
 
 } from '@chakra-ui/react'
@@ -65,7 +65,7 @@ function Navbar() {
                 <Link smooth to='#project'><Tab color={isscroll ? 'white' : "#02054B"} >Projects</Tab></Link>
                 <Link smooth to='#skill'><Tab color={isscroll ? 'white' : "#02054B"} >Skills</Tab></Link>
                 <Link smooth to='#contact'><Tab color={isscroll ? 'white' : "#02054B"} >Contact Me</Tab></Link>
-                <Link onClick={handleOpen}  href={Resume}  download   ><Tab>Resume</Tab></Link>
+                <Think onClick={handleOpen}  href={Resume}  download   ><Tab color={isscroll ? 'white' : "#02054B"}>Resume</Tab></Think>
               </TabList>
             </Tabs>
           </Box>
