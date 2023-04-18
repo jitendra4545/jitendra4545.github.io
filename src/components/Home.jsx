@@ -19,9 +19,9 @@ function HomePage() {
 
 
   return (
-    <>
-      <SimpleGrid  mt='12%' columns={{ base: '1', md: '2', lg: '2' }} spacing={20}>
-        <Box w={{ base: '100%', md: '120%', lg: '140%' }} textAlign='left'>
+    <Box >
+      <SimpleGrid   mt='12%' columns={{ base: '1', md: '2', lg: '2' }} spacing={20}>
+        <Box  w={{ base: '100%', md: '120%', lg: '140%' }} textAlign='left'>
           <Heading color='' as='h2' size='2xl'>I'm</Heading>
           <Heading color='blue' as='h2' size='2xl'>Jitendra Kumar Ghadei</Heading>
           <Heading color='' as='h2' size='2xl'>Full Stack Web Developer</Heading>
@@ -51,9 +51,12 @@ function HomePage() {
       <GitHubStats />
       <Project />
       <ContactMe />
-    </>
+    </Box>
   )
 
 }
 
 export default HomePage
+
+
+//bgImage={(`https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif`)}

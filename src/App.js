@@ -10,7 +10,7 @@ function App() {
 
 //code #02054B
   return (
-    <Box id='home'  bg=""  className='App'> 
+    <Box id='home'   className='App'> 
    
    <Navbar/>
    <Box width={{base:'90%',md:'92%',lg:'70%'}} margin='auto'>
