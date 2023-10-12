@@ -4,7 +4,7 @@ import Skill from './Skills'
 import Project from './Projects'
 import ContactMe from './Contact'
 import { ImLinkedin } from 'react-icons/im'
-import Resume from '../Resume/fw19_0117-Jitendra-Ghadei-Resume.pdf'
+import Resume from '../Resume/Jitendra_Kumar_Ghadei_Resume.pdf'
 import GitHubStats from './GitHubStats'
 import { BsGithub } from 'react-icons/bs'
 import GitHubCalendar from './GithubCalender'
@@ -14,7 +14,7 @@ function HomePage() {
   const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
 
   const handleOpen=()=>{
-    window.open(`https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing`)
+    window.open(`https://drive.google.com/file/d/1XzPt59GbCmh5TxvAM5eEjxSHSyYT6Xdb/view?usp=sharing`)
   }
 
 

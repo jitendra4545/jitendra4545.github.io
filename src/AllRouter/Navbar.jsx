@@ -18,7 +18,7 @@ import {
 
 
 } from '@chakra-ui/react'
-import Resume from '../Resume/fw19_0117-Jitendra-Ghadei-Resume.pdf'
+import Resume from '../Resume/Jitendra_Kumar_Ghadei_Resume.pdf'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HamburgerIcon } from '@chakra-ui/icons'
 
@@ -43,7 +43,7 @@ function Navbar() {
   }, []);
 
   const handleOpen=()=>{
-    window.open(`https://drive.google.com/file/d/1iNwUQuC_PVgLBdaPtoDm5-mXL5VRd2Kf/view?usp=sharing`)
+    window.open(`https://drive.google.com/file/d/1XzPt59GbCmh5TxvAM5eEjxSHSyYT6Xdb/view?usp=sharing`)
   }
 
   return (
