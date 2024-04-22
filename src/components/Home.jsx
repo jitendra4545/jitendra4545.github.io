@@ -25,7 +25,7 @@ function HomePage() {
           <Heading color='' as='h2' size='2xl'>I'm</Heading>
           <Heading color='blue' as='h2' size='2xl'>Jitendra Kumar Ghadei</Heading>
           <Heading color='' as='h2' size='2xl'>Full Stack Web Developer</Heading>
-          <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer who loves building projects.I am equipped with a variety of technologies and tools to help me build the best possible product.</Text>
+          <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer, skilled in a variety of technologies and tools, is dedicated to building top-notch projects. Their passion lies in creating the best possible products through their expertise and versatility.</Text>
           <Box mt='7%' gap='5%' alignItems={'right'} display='flex'>
             <Box>
               <Link href='https://www.linkedin.com/in/jitendra-ghadei-01424a228' target={'_blank'}> <ImLinkedin color='blue' size="40px" /></Link>

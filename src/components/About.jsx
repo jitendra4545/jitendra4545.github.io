@@ -12,16 +12,16 @@ function AboutMe() {
                 </Box>
                 <Box  >
                     <Text mt='3%' w='100%' textAlign='left' lineHeight='30px' fontSize='2xl' color='grey' >
-                        I am Result-oriented full-stack web developer, passionate about developing user-friendly web applications using MERN Stack.
+                    A result-oriented full-stack web developer, passionate about developing user-friendly web applications using the MERN Stack, finds enjoyment in creating websites. With a keen interest in problem-solving and coming up with effective solutions, they are eager to be part of a team that provides opportunities for learning and growth.
                     </Text>
                     <Spacer />
-                    <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
+                    {/* <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
                         I enjoy developing websites and a keen interest in solving problems and coming up with effective solutions.
                     </Text>
                     <Spacer />
                     <Text textAlign='left' mt='2%' lineHeight='30px' fontSize={{ base: '2xl', md: '2xl', lg: '2xl' }} color='grey' >
                         Eager to be a part of a team which gives me ability to learn and grow.
-                    </Text>
+                    </Text> */}
                 </Box>
             </SimpleGrid>
         </Box>
