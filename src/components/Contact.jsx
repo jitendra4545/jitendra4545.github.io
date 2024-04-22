@@ -51,7 +51,7 @@ function ContactMe() {
 
 
   return (
-    <Box id='contact'>
+    <Box id='contact' pt="7%">
       <Heading mb='1%' mt='5%' color='blue' transition='step-start' textAlign='left' as='h2' size='2xl'>Contact</Heading>
       <Container maxW="full" mt={5} centerContent overflow="hidden">
         <Flex>
@@ -78,6 +78,7 @@ function ContactMe() {
                           width="250px"
                           variant="ghost"
                           color="white"
+                        
                           _hover={{ border: '2px solid #1C6FEB' }}
                           leftIcon={<MdPhone color="black" size="20px" />}>
                           +91-9348788367
@@ -218,7 +219,6 @@ function SmallerNeighbourElement(n, arr) {
 
    
     while (stack.length > 0 && arr[i] <= stack[stack.length - 1]) {
-
       stack.pop();
 
     }

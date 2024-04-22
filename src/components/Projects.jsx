@@ -5,7 +5,7 @@ import Boat from '../Resume/boat.png'
 function Project() {
 
        return (
-              <Box id='project' mt='10%'>
+              <Box id='project' pt='7%'>
 
                      <Heading mb='5%' color='blue' transition='step-start' textAlign='left' as='h2' size='2xl'>Projects</Heading>
                     

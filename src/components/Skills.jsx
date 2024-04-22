@@ -108,7 +108,7 @@ function Skill() {
 
     return (
         <Box id='skill'>
-        <Box  mt='10%' >
+        <Box  pt='7%' >
             <Heading mb='5%' color='blue' transition='step-start' textAlign='left' as='h2' size='2xl'>Skills</Heading>
             <Heading as='h2' size='xl' color='grey'>Frontend & Backend</Heading>
             <SimpleGrid mt='5%' gap="6" columns={{ base: '2', md: '3', lg: '5' }}>
