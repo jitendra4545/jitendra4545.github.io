@@ -18,7 +18,7 @@ import {
 
 
 } from '@chakra-ui/react'
-import Resume from '../Resume/Jitendra_Kumar_Ghadei_Resume.pdf'
+import Resume from '../Resume/Jitendra-Ghadei-Resume.pdf'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { HamburgerIcon } from '@chakra-ui/icons'
 
