@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.1b22f265.js",
+    "main.js": "/static/js/main.515dfd06.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/boat.png": "/static/media/boat.b5f1543d70513a0cd5c1.png",
     "static/media/Jitendra-Kumar-Ghadei-Resume.pdf": "/static/media/Jitendra-Kumar-Ghadei-Resume.9158cc3335f23e425b2f.pdf",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.1b22f265.js.map": "/static/js/main.1b22f265.js.map",
+    "main.515dfd06.js.map": "/static/js/main.515dfd06.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.1b22f265.js"
+    "static/js/main.515dfd06.js"
   ]
 }
