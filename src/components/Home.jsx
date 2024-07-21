@@ -23,7 +23,7 @@ function HomePage() {
       <SimpleGrid   mt='12%' columns={{ base: '1', md: '2', lg: '2' }} spacing={20}>
         <Box  w={{ base: '100%', md: '120%', lg: '140%' }} textAlign='left'>
           <Heading color='' as='h2' size='2xl'>I'm</Heading>
-          <Heading color='blue' as='h2' size='2xl'>Jitendra Kumar Ghadei</Heading>
+          <Heading color='blue' as='h2' size='2xl'>Mr. Jitendra Kumar Ghadei</Heading>
           <Heading color='' as='h2' size='2xl'>Full Stack Web Developer</Heading>
           <Text mt='3%' lineHeight='30px' fontSize='2xl' color='grey' >A Full Stack Developer, skilled in a variety of technologies and tools, is dedicated to building top-notch projects. Their passion lies in creating the best possible products through their expertise and versatility.</Text>
           <Box mt='7%' gap='5%' alignItems={'right'} display='flex'>
